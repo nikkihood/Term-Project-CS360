@@ -15,48 +15,53 @@ header{
     margin:0 auto;
     display:inline-block;
 }
-nav h1 {
-    display: inline-block;
-    font-size: 2rem;
-    font-family: 'Bebas Neue', cursive;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.35); /* Header text shadow */
-    
-}
-
-
 
 nav {
     text-decoration: none;
+    background-color: rgb(100, 100, 182);
     width:100%;
-    
-    color:azure;
-    width: 100%;
     margin: 0 auto;
+    
+    /*Need to write report on use of flex.*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-
+nav h1{
+    width:1000px;
+    color:white;
+}
 ul{
     width:100%;
     margin:0 auto;
-    background-color: rgb(100, 100, 182);
-    padding:.5rem 2rem;
-
+    
 }
 li{
     display:inline-block;
     vertical-align: center;
+    margin:2rem;
 }
-.buttons{
-   
+
+nav a{
+    background-color:rgb(235, 151, 72);
+    border: 2px rgb(226, 110, 64);
+    border-radius:1rem;
+    text-decoration: none;
+    padding:1rem;
+    margin-left: 20rem;
+    color:white
 }
-a{
+
+.link{
     padding:1rem;
     margin:.25rem;
     text-decoration: none;
     background-color:rgb(141, 141, 192);
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
+    
 }
-a:hover {
+.link:hover {
     background-color:rgb(162, 162, 189);
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
@@ -71,9 +76,11 @@ footer{
     margin:0 auto;
 }
 
+ 
 #logo{
-    margin-top: 1rem;
+    margin: 1rem;
+    padding-left: 2rem;
     display:inline-block;
-height:150px;
-width:150px;
+    height:100px;
+    width:160px;
 }
