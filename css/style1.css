@@ -9,7 +9,6 @@ main{
 
 }
 header{
-    background-image:url("../images/animalShelterCover1.jpeg ");
     background-size: cover;
     width: 100%;
     height:600px;
@@ -21,18 +20,15 @@ nav h1 {
     font-size: 2rem;
     font-family: 'Bebas Neue', cursive;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.35); /* Header text shadow */
-    background-image: url("../images/logo.png");
-    background-repeat: no-repeat;
-    height:60px;
-    padding-left:100px;
-    padding-top:20px;
+    
 }
+
 
 
 nav {
     text-decoration: none;
     width:100%;
-
+    
     color:azure;
     width: 100%;
     margin: 0 auto;
@@ -42,27 +38,42 @@ ul{
     width:100%;
     margin:0 auto;
     background-color: rgb(100, 100, 182);
-    padding:2rem
+    padding:.5rem 2rem;
+
 }
 li{
     display:inline-block;
-  
+    vertical-align: center;
+}
+.buttons{
+   
 }
 a{
-     padding:1rem;
+    padding:1rem;
     margin:.25rem;
     text-decoration: none;
     background-color:rgb(141, 141, 192);
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
 }
-a:hover{
+a:hover {
     background-color:rgb(162, 162, 189);
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
-
 }
-
+.cover{
+background-image:url("../images/animalShelterCover1.jpeg ");
+ background-size: cover;
+padding:3rem;
+height:500px;
+} 
 footer{
     margin:0 auto;
+}
+
+#logo{
+    margin-top: 1rem;
+    display:inline-block;
+height:150px;
+width:150px;
 }
