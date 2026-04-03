@@ -22,15 +22,16 @@ body {
     margin:0 5rem;
 }
 main{
-        width:100%;
-        margin: 0 2rem;
+    width:100%;
+    margin: 0 auto;
+    background-color: #ebeaea;
 
 }
 header{
     width: 100%;
-    height:800px;
     margin:0 auto;
     display:inline-block;
+    
 }
 
 nav {
@@ -39,11 +40,11 @@ nav {
     background-color: rgb(100, 100, 182);
     width:100%;
     margin: 0 auto;
-    
-    /*Need to write report on use of flex.*/
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*Need to write report on use of flex.*/
+   
 }
 nav h1{
     color:white;
@@ -83,13 +84,17 @@ nav a{
     border-radius:1rem;
 }
 .cover{
-background-image:url("../images/animalShelterCover2.jpeg ");
- background-size: cover;
-padding:3rem;
-height:500px;
+    background-image:url("../images/animalShelterCover1.jpeg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:3rem 0;
 } 
 footer{
-    margin:0 auto;
+    margin-top:2rem;
+    padding:1rem;
+    text-align: center;
+    background-color: rgb(100, 100, 182);
+    color:white;
 }
 
  
@@ -103,12 +108,74 @@ footer{
 #statement
 {
     display:inline-block;
+    text-align: left;
     font-family: "Dancing Script", cursive;
     color:rgb(255, 255, 255);
     font-size: 24pt;
-    margin-top:7rem;
-    text-shadow:2px 2px 3px rgb(11, 10, 10);
-    background-color:rgba(48, 62, 63, 0.169) ;
+    margin-top:5rem;
+    text-shadow:2px 2px 2px rgb(11, 10, 10);
+    background-color:rgba(41, 52, 53, 0.295) ;
     padding:.5rem;
     border-radius: 1rem;
 }
+.image-section img{
+    width:300px;
+    height:300px;
+}
+.image-section {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+   
+}
+.puppy{
+    margin:1rem 2rem;
+    padding:1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+
+}
+.week{
+    background-color:rgb(237, 185, 137);
+    border: 2px rgb(226, 110, 64);
+    border-radius:1rem;
+    padding:2rem;
+    color:white;
+}
+
+.image-section2 {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+   
+}
+.puppy a{
+    text-decoration:none;
+    background-color: rgb(103, 103, 143);
+    color:white;
+    padding:1rem;
+    border: 2px rgb(103, 103, 143);
+    border-radius:1rem;
+    margin:2rem;
+    font-family:"fjalla One";
+}
+.puppy a:hover{
+    text-decoration:none;
+    color:white;
+    padding:1.25rem;
+    background-color:rgb(235, 151, 72);
+    border: 2px rgb(226, 110, 64);
+    border-radius:1rem;
+    margin:2rem;
+    font-size: larger;
+    font-family:"fjalla One";
+} 
+
+
