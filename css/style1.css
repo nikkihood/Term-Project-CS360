@@ -1,22 +1,40 @@
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #dad8d8;
+    background-color: #f4f4f4;
+    margin:0 5rem;
 }
 main{
         width:100%;
+        margin: 0 2rem;
 
 }
 header{
-    background-size: cover;
     width: 100%;
-    height:600px;
+    height:800px;
     margin:0 auto;
     display:inline-block;
 }
 
 nav {
+    font-family:"fjalla One";
     text-decoration: none;
     background-color: rgb(100, 100, 182);
     width:100%;
@@ -28,18 +46,17 @@ nav {
     align-items: center;
 }
 nav h1{
-    width:1000px;
     color:white;
 }
 ul{
-    width:100%;
+    width:100vw;
     margin:0 auto;
     
 }
 li{
     display:inline-block;
     vertical-align: center;
-    margin:2rem;
+    margin:1rem;
 }
 
 nav a{
@@ -48,7 +65,6 @@ nav a{
     border-radius:1rem;
     text-decoration: none;
     padding:1rem;
-    margin-left: 20rem;
     color:white
 }
 
@@ -67,7 +83,7 @@ nav a{
     border-radius:1rem;
 }
 .cover{
-background-image:url("../images/animalShelterCover1.jpeg ");
+background-image:url("../images/animalShelterCover2.jpeg ");
  background-size: cover;
 padding:3rem;
 height:500px;
@@ -83,4 +99,16 @@ footer{
     display:inline-block;
     height:100px;
     width:160px;
+}
+#statement
+{
+    display:inline-block;
+    font-family: "Dancing Script", cursive;
+    color:rgb(255, 255, 255);
+    font-size: 24pt;
+    margin-top:7rem;
+    text-shadow:2px 2px 3px rgb(11, 10, 10);
+    background-color:rgba(48, 62, 63, 0.169) ;
+    padding:.5rem;
+    border-radius: 1rem;
 }
