@@ -49,12 +49,12 @@ nav h1{
     color:white;
     font-size:24pt;
 }
-ul{
+nav ul{
     width:100vw;
     margin:0 auto;
     
 }
-li{
+nav li{
     display:inline-block;
     vertical-align: center;
     margin:1rem;
@@ -66,7 +66,7 @@ nav .linkOrange{
     border-radius:1rem;
     text-decoration: none;
     padding:.75rem;
-    color:white
+    color:white;
 }
 
 .link{
@@ -76,12 +76,15 @@ nav .linkOrange{
     background-color:rgb(141, 141, 192);
     border: 2px rgb(103, 103, 143);
     border-radius:.75rem;
+    color:white;
     
 }
 .link:hover {
     background-color:rgb(162, 162, 189);
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
+    color:white;
+
 }
 
 footer{
@@ -91,7 +94,9 @@ footer{
     background-color: rgb(100, 100, 182);
     color:white;
 }
-
+footer p{
+    color:white;
+}
  
 #logo{
     margin: .75rem;
@@ -119,7 +124,7 @@ h1{
 }
 p{
     text-align: center;
-    color:rgb(84, 84, 89)
+    color:rgb(84, 84, 89);
 
 }
 .hq{
@@ -161,6 +166,11 @@ section{
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.026);
 
 }
+#highlightsContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
 #adoptionLounge, #admin, #greenSpace{
     padding:1rem 0;
     width:99%;
@@ -172,5 +182,46 @@ section{
     width:100%;
     height:300px;
 }
-
-
+#address{
+    font-size: 14pt;
+    color:rgb(39, 39, 59);
+    font-weight: bold;
+    text-decoration: underline;
+    font-family:"Fjalla One";
+}
+.additionalLocations{
+   width:100%;
+}
+.Locations{
+    list-style-type: none;
+    padding:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2rem;
+}
+#links{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding:3rem;
+}
+#links li{
+list-style-type: none;
+}
+ #links a{
+    font-family:"fjalla One";
+    text-decoration: none;
+    background-color:rgb(142, 106, 241);
+    padding:1rem;
+    color:white;
+    border-radius:.3rem;
+}
+#links a:hover{
+    font-family:"fjalla One";
+    background-color:rgb(98, 184, 255);
+    color:white;
+    padding:1rem;
+    border-radius:.3rem;
+}

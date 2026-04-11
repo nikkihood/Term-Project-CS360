@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>JSFiddle r8mwadLq</title>
+
+  <style>
+    html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+gmpx-store-locator {
+  width: 100%;
+  height: 100%;
+
+  /* These parameters customize the appearance of Locator Plus. See the documentation at
+     https://github.com/googlemaps/extended-component-library/blob/main/src/store_locator/README.md
+     for more information. */
+  --gmpx-color-surface: #fff;
+  --gmpx-color-on-surface: #212121;
+  --gmpx-color-on-surface-variant: #757575;
+  --gmpx-color-primary: #1967d2;
+  --gmpx-color-outline: #e0e0e0;
+  --gmpx-fixed-panel-width-row-layout: 28.5em;
+  --gmpx-fixed-panel-height-column-layout: 65%;
+  --gmpx-font-family-base: "Roboto", sans-serif;
+  --gmpx-font-family-headings: "Roboto", sans-serif;
+  --gmpx-font-size-base: 0.875rem;
+  --gmpx-hours-color-open: #188038;
+  --gmpx-hours-color-closed: #d50000;
+  --gmpx-rating-color: #ffb300;
+  --gmpx-rating-color-empty: #e0e0e0;
+}
+  </style>
+
+  
+</head>
+<body>
+  <!-- The API key below only works in JSFiddle. If you don't have an API key, go to [https://console.cloud.google.com/google/maps-apis/start] and then replace the key parameter below with your API key from your project. -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Locator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script>
+      const CONFIGURATION = {
+        "locations": [
+          {"title":"San Marco Adopt a Puppy","address1":"3456 Goal Street","address2":"Jacksonville, FL 32207, USA","coords":{"lat":30.303874543845005,"lng":-81.65063553505708},"placeId":"ChIJCdIc-aq35YgRTNQeeCACZiI"},
+          {"title":"Riverside Adopt a Puppy Head Quarters","address1":" 1 Puppy and Paw Road","address2":"Jacksonville, FL, USA","coords":{"lat":30.31023600480914,"lng":-81.68050371259766},"placeId":"ChIJx5gJStW55YgRInCFhOUgAyA"},
+          {"title":"Beach Boulevard a Adopt a Puppy","address1":" 342 Beach Boulevard","address2":"Jacksonville, FL, USA","coords":{"lat":30.320141113714747,"lng":-81.43315403789063},"placeId":"EiFCZWFjaCBCbHZkLCBKYWNrc29udmlsbGUsIEZMLCBVU0EiLiosChQKEgl1fj2UKrXliBHT1ze3I9IEahIUChIJ66_O8Ra35YgR4sf8ljh9zcQ"},
+          {"title":"Orange Park Adopt a Puppy","address1":"54 Orange Way","address2":"Jacksonville, FL, 32073, USA","coords":{"lat":30.17290039407268,"lng":-81.71764198950197},"placeId":"ChIJQSXZdePF5YgR9dlcoyPcZ14"}
+        ],
+        "mapOptions": {"center":{"lat":38.0,"lng":-100.0},"fullscreenControl":true,"mapTypeControl":false,"streetViewControl":false,"zoom":4,"zoomControl":true,"maxZoom":17,"mapId":""},
+        "mapsApiKey": "AIzaSyDvKSN5Fg_2Evgcn5FUsoQ8s1X0ekCqCoM",
+      };
+
+    </script>
+  </head>
+  <body>
+    <script type="module" src="https://ajax.googleapis.com/ajax/libs/@googlemaps/extended-component-library/0.6.11/index.min.js"></script>
+
+    <!-- Uses components from the Extended Component Library; see
+         https://github.com/googlemaps/extended-component-library for more information
+         on these HTML tags and how to configure them. -->
+    <gmpx-api-loader key="AIzaSyDvKSN5Fg_2Evgcn5FUsoQ8s1X0ekCqCoM" solution-channel="GMP_QB_locatorplus_v11_cABD"></gmpx-api-loader>
+    <gmpx-store-locator map-id="DEMO_MAP_ID"></gmpx-store-locator>
+  </body>
+</html>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+  await customElements.whenDefined('gmpx-store-locator');
+  const locator = document.querySelector('gmpx-store-locator');
+  locator.configureFromQuickBuilder(CONFIGURATION);
+});
+  </script>
+</body>
+</html>
