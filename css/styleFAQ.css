@@ -54,7 +54,7 @@ ul{
     margin:0 auto;
     
 }
-li{
+nav ul li{
     display:inline-block;
     vertical-align: center;
     margin:1rem;
@@ -83,6 +83,21 @@ nav .linkOrange{
     border: 2px rgb(103, 103, 143);
     border-radius:1rem;
 }
+h2 {
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+}
+details {
+    background-color: rgb(207, 207, 236);
+    margin: 10px 5px;
+    padding: 20px;
+    border: 2px solid rgb(207, 207, 236);
+    border-radius: 5px;
+}
+summary {
+    font-weight: bold;
+    cursor: pointer;
+}
 
 footer{
     margin-top:2rem;
@@ -92,7 +107,14 @@ footer{
     color:white;
 }
 
- 
+a {
+    color: rgb(100, 100, 182)
+
+}
+a:hover {
+     color: rgb(162, 162, 189);
+ }
+
 #logo{
     margin: .75rem;
     padding-left: 2rem;
