@@ -244,5 +244,8 @@ h2{
   
  }
     
-
+.image-section2 img{
+    width:100%;
+    max-width:300px;
+}
 

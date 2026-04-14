@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&display=swap" rel="stylesheet">
-
+    <script src="../js/adoptConfetti.js"></script>
 </head>
     <body>
     <header>
@@ -28,10 +28,15 @@
         
     </header>
     <body>
-        <h1>Adoptions</h1>
-        <p>Bring your family to meet our adorable puppies and find your new best friend!Adoption Fees are $20 to help aid the shelter.We are currently accepting applications for adoption. Please see the bottom of the page for more information!</p>
         <img src="../images/groupDogs1.jpg" alt=" group of dogs"> 
-        <h2>Meet our Puppies!</h2>
+        <h1>Adoptions</h1>
+        <section class="intro">
+            <p>Bring your family to meet our adorable puppies and find your new best friend! Adoption Fees are $20 to help aid the shelter.We are currently accepting applications for adoption. Please see the bottom of the page for more information!</p>
+           <div>
+            <a href = #puppy>See Puppies</a>
+            <a href = #adults>See Adults</a>
+           </div>
+        </section>
          <section class="week image-section2">
             <h2>Puppy of the Week</h2>
             <img src="../images/buster1.jpg" alt="Buster, a __dog">
@@ -43,69 +48,121 @@
                   little explorer who loves morning walks and afternoon naps. 
                   Whether he’s chasing a ball or curling up for a snuggle, he’s
                    the perfect addition to any Jacksonville family. Come visit 
-                   him this weekend and see if he’s the missing piece to your home! </p>
+                   him this weekend and see if he’s the missing piece to your home!</p>
 
         </section>
-        
-        <table>
+        <h2> Image Gallery</h2>
+        <section class= "imageGallery">
+            <p>&lt</p>
+            <img src="../images/german.jpg" alt="German Shepherd">
+            <p>&gt</p>
+
+        </section>
+        <h2> Puppies for Adoption</h2>
+        <table id="puppy">
             <tr>
                 <td><img src="../images/jack-russel.jpg" alt="Jack Russell"></td>
-                <td> <p>Meet Jack! This 12-week-old Jack Russell is a "pocket rocket" of fun. He’s a spirited little guy who is looking for an active home where he can play fetch until the sun goes down.</p></td>
+                <td> <p>Meet Jack! This 12-week-old Jack Russell is a "pocket rocket" of fun. He’s a spirited little guy who is looking for an active home where he can play fetch until the sun goes down.</p> <a href="#adopt">Adopt Jack</a>
                 <td> <p> Located at Riverside HQ</p></td>
             </tr>
             <tr>
                 <td><img src="../images/corgie.jpg" alt="Corgi  "></td>
-                <td> <p>Meet Corrie! At 4 months old, this Corgi is already a social butterfly. Known for her signature wink and big heart, she’s ready to be the star of your neighborhood.</p></td>
+                <td> <p>Meet Corrie! At 4 months old, this Corgi is already a social butterfly. Known for her signature wink and big heart, she’s ready to be the star of your neighborhood.</p><a href="#adopt">Adopt Corrie</a></td>
                 <td> <p> Located at Beaches</p></td>
             </tr>
             <tr>
                 <td><img src="../images/chiuaha.jpg" alt="Chihuahua"></td>
-                <td> <p>Meet Fido! This 10-week-old Chihuahua proves that big things come in small packages. He is a "lap dog extraordinaire" who just wants to curl up with his favorite human.</p></td>
+                <td> <p>Meet Fido! This 10-week-old Chihuahua proves that big things come in small packages. He is a "lap dog extraordinaire" who just wants to curl up with his favorite human.</p><a href="#adopt">Adopt Fido</a></td>
                 <td> <p> Located at Riverside HQ</p></td>
             </tr>
             <tr>
                 <td><img src="../images/borderCollie.jpg" alt="Border Collie"></td>
-                <td> <p>Meet Maggie! A brilliant 5-month-old Border Collie who is easily the smartest girl in the room. She’s eager to please and ready to learn all the tricks you can teach her.</p></td>
+                <td> <p>Meet Maggie! A brilliant 5-month-old Border Collie who is easily the smartest girl in the room. She’s eager to please and ready to learn all the tricks you can teach her.</p> <a href = "#adopt">Adopt Maggie</a></td>
                 <td> <p> Located at Riverside HQ</p></td>
             </tr>
             <tr>
                 <td><img src="../images/frenchbulldog.jpg" alt="French Bulldog"></td>
-                <td> <p>Meet Groot! This 14-week-old Frenchie is the ultimate low-key best friend. He’s a professional snorer and a champion cuddler who is all about that "chill" lifestyle.</p></td>
+                <td> <p>Meet Groot! This 14-week-old Frenchie is the ultimate low-key best friend. He’s a professional snorer and a champion cuddler who is all about that "chill" lifestyle.</p><a href = "#adopt">Adopt Groot</a></td>
                 <td> <p> Located at Orange Park</p></td>
             </tr>
             <tr>
                 <td><img src="../images/goldenDoodle.jpg" alt="Golden Doodle"></td>
-                <td> <p>Meet Rapunzel! This 3-month-old Golden Doodle is a fluffy socialite. She’s gentle, friendly, and her gorgeous coat makes her a total head-turner at the park.</p></td>
+                <td> <p>Meet Rapunzel! This 3-month-old Golden Doodle is a fluffy socialite. She’s gentle, friendly, and her gorgeous coat makes her a total head-turner at the park.</p><a href="#adopt">Adopt Rapunzel</a></td>
                 <td> <p> Located at Riverside HQ</p></td>
             </tr>
             <tr>
                 <td><img src="../images/german.jpg" alt="German Shepherd"></td>
-                <td> <p>Meet Karl! At 6 months old, this German Shepherd is as noble as he is handsome. He’s a loyal protector-in-training who values a good routine and a steady leader.</p></td>
+                <td> <p>Meet Karl! At 6 months old, this German Shepherd is as noble as he is handsome. He’s a loyal protector-in-training who values a good routine and a steady leader.</p><a href="#adopt">Adopt Karl</a></td>
                 <td> <p> Located at Beaches</p></td>
             </tr>
             <tr>
-                <td><img src="../images/lab triplets.jpg" alt="Labrador Triplets"></td>
-                <td> <p>Meet our Triplets! These 9-week-old Labradors are triple the trouble and triple the love. They are a whirlwind of wagging tails and classic puppy curiosity.</p></td>
+                <td><img src="../images/lab triplets1.jpg" alt="Labrador Triplets"></td>
+                <td> <p>Meet our Triplets! These 9-week-old Labradors are triple the trouble and triple the love. They are a whirlwind of wagging tails and classic puppy curiosity.</p> <a href = "#adopt">Adopt The Triplets</a></td>
                 <td> <p> Located at Beaches</p></td>
             </tr>
 
             <tr>
                 <td><img src="../images/mix.jpg" alt="Mixed Breed"></td>
-                <td> <p>Meet Rudy! This 4-month-old Mixed Breed is 100% unique. He’s a goofy, resilient guy with a one-of-a-kind personality that will keep you laughing every day.</p></td>
+                <td> <p>Meet Rudy! This 4-month-old Mixed Breed is 100% unique. He’s a goofy, resilient guy with a one-of-a-kind personality that will keep you laughing every day.</p><a href="#adopt">Adopt Rudy</a></td>
                 <td> <p> Located at Riverside HQ</p></td>
             </tr>
            
         </table>
         <h2>Meet our Mature Puppies!</h2>
-        <table>
-
-
+        <table id="adults">
+            <tr>
+                <td><img src="../images/adultBassetHound.jpg" alt="Adult Basset Hound"></td>
+                <td> <p>Meet Daisy! This 3-year-old Basset Hound is the epitome of "laid-back charm." She’s a low-energy sweetheart who loves long naps and leisurely strolls.</p><a href="#adopt">Adopt Daisy</a></td>
+                <td> <p> Located at Riverside HQ</p></td>
+            </tr>
+            <tr>
+                <td><img src="../images/adultCorgi.jpg" alt="Adult Corgi"></td>
+                <td> <p>Meet Charlie! This 4-year-old Corgi is a playful and affectionate companion. He loves to be the center of attention and is always up for a game of fetch.</p><a href="#adopt">Adopt Charlie</a></td>
+                <td> <p> Located at Beaches</p></td>
+            </tr>
+            <tr>
+                <td><img src="../images/adultGolden.jpg" alt="Adult Golden Retriever"></td>
+                <td> <p>Meet Max! This 5-year-old Golden Retriever is a curious and friendly companion. He loves to explore and is always up for an adventure.</p><a href="#adopt">Adopt Max</a></td>
+                <td> <p> Located at Riverside HQ</p></td>
+            </tr>
+            <tr>
+                <td> <img src = "../images/adultHuskyy.avif" alt="Adult Husky"></td>
+                <td> <p>Meet Luna! This 4-year-old Husky is a spirited and adventurous companion. She loves to run and play, making her the perfect partner for an active family.</p><a href="#adopt">Adopt Luna</a></td>
+                <td> <p> Located at Beaches</p></td>
+            </tr>
+            <tr>
+                <td><img src ="../images/adultLab.jpeg" alt="Adult Labrador"></td>
+                <td> <p>Meet Bella! This 6-year-old Labrador is a gentle and loving companion. She enjoys long walks and cuddling on the couch.</p><a href="#adopt">Adopt Bella</a></td>
+                <td> <p> Located at Riverside HQ</p></td>
+            </tr>
 
         </table>
         <h2>Ready to Adopt?</h2>
+        <form id="adopt">
+            <label for="fname">First Name:</label>
+            <input type="text" id="fname" name="fname" required>
+
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="dogName">Dog's Name You Wish to Adopt:</label>
+            <input type ="text" id="dogName" name="dogName" placeholder="Dog's Name You Wish to Adopt" required>
+
+            <label for="location">Preferred Location for Adoption:</label>
+            <input type ="text" id="location" name="location" placeholder="Preferred Location for Adoption" required>
+
+            <br>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+
+
         <!-- Add contact information and next steps for adoption process maybe find confettie js  -->
         <h2>Have a dog you can no longer care for?</h2>
-        <!-- Add information on how to surrender a dog to the shelter and button link -->
+        <p> if you need to surrender a dog please visit our</p> 
+        <a href="../pages/rehome.html">Surrender Page</a>
     </body>
 
 
