@@ -145,8 +145,8 @@ h2{
 
 }
 .week{
-    background-color:rgb(237, 185, 137);
-    border: 2px rgb(226, 110, 64);
+    background-color:rgb(137, 152, 237);
+    border: 2px rgb(77, 64, 226);
     border-radius:1rem;
     padding:2rem;
     color:white;
@@ -226,7 +226,7 @@ h2{
 
 
  #links li:nth-child(odd) a {
-     background-color: rgba(235, 151, 72, 0.678) !important; /* Orange background */
+     background-color: rgba(235, 151, 72, 0.678); /* Orange background */
      color: white;
      padding: 0.5rem 1rem;
      text-decoration: none;
@@ -235,7 +235,7 @@ h2{
     
  }
  #links li:nth-child(even) a {
-     background-color: rgba(100, 100, 182, 0.295) !important; /* Purple background */
+     background-color: rgba(100, 100, 182, 0.295); /* Purple background */
      color: white;
      padding: 0.5rem 1rem;
      text-decoration: none;
