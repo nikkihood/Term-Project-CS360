@@ -68,6 +68,16 @@ nav .linkOrange{
     padding:.75rem;
     color:white
 }
+h2 {
+    background-color: white;
+    vertical-align: middle;
+}
+h2 img {
+    width: 160px;
+    height: 160px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
 
 .link {
     padding: .75rem;
