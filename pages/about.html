@@ -4,41 +4,87 @@
     <meta charset="UTF-8">
     <title>About Us</title>
     <link rel="stylesheet" href="../css/styleAbout.css">
-   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&display=swap" rel="stylesheet">
+    <script src="../js/about.js"></script>
 
 </head>
     <body>
-    <header>
-        <nav>
-            <a href="../index.html"><img id="logo" src="../images/logo1.png" alt="Adopt a Puppy Jax Logo"></a>
-            <h1> Adopt a Puppy Jacksonville </h1>
-            <ul>
-                <li><a class="link"  href="about.html">About</a></li>
-                <li><a class="link" href="">Adopt</a></li>
-                <li><a class="link" href="">Locations</a></li>
-                <li><a class="link" href="">Volunteer</a></li>
-                <li><a class="link" href="">Contact</a></li>
-                <li><a class="linkOrange" href="">Donate Now!</a></li>
-            </ul>
-            
+        <header>
+            <nav>
+                <a href="../index.html"><img id="logo" src="../images/logo1.png" alt="Adopt a Puppy Jax Logo"></a>
+                <h1> Adopt a Puppy Jacksonville </h1>
+                <ul>
+                    <li><a class="link"  href="about.html">About</a></li>
+                    <li><a class="link" href="">Adopt</a></li>
+                    <li><a class="link" href="">Locations</a></li>
+                    <li><a class="link" href="">Volunteer</a></li>
+                    <li><a class="link" href="">Contact</a></li>
+                    <li><a class="linkOrange" href="">Donate Now!</a></li>
+                </ul>
+            </nav>
+        </header>
 
-            
-        </nav>
-      
-    </header>
+        <main>
+            <section>
+                <h1>About Us</h1>
+                <p id="introPara">Adopt a Puppy Jacksonville is a place where we help many puppies find new and welcoming homes.
+                    This shelter works with so many places around Jacksonville to give every pup their
+                    dream home. There are many different types of things Adopt a Puppy Jacksonville does
+                    for its supporters and pups!</p><br>
+                <div class="orangeDiv">
+                    <h3 class="purpleText">Adopting Your Own Pup!</h3>
+                    <p>Text.</p>
+                    <a class="linkButton" href="adopt.html">Click to view Adoption Page!</a>
+                </div>
 
-    <main>
-    
-        
+                <div class="purpleDiv">
+                    <h3 class="orangeText">Rehoming a Pup!</h3>
+                    <p>Text.</p>
+                    <a class="linkButton" href="rehome.html">Click to view Rehoming Page!</a>
+                </div>
 
-    </main>
+                <div class="orangeDiv">
+                    <h3 class="purpleText">Visiting Our Locations!</h3>
+                    <p>Text.</p>
+                    <a class="linkButton" href="locations.html">Click to view Locations Page!</a>
+                </div>
 
-    <footer>
-        <p>&copy; 2026 Adopt a Puppy Jacksonville. All rights reserved.</p>
-    </footer>
+                <div class="purpleDiv">
+                    <h3 class="orangeText">Staff Applications & Volunteering</h3>
+                    <p>Text.</p>
+                    <a class="linkButton" href="volunteer.html">Click to view Volunteer Page!</a>
+                </div>
 
-</body>
+                <div class="orangeDiv">
+                    <h3 class="purpleText">Joining Community Events!</h3>
+                    <p>Text.</p>
+                    <a class="linkButton" href="newsEvents.html">Click to view Community Events Page!</a>
+                </div>
+            </section>
+
+            <section>
+                <h2>Success Stories</h2>
+                <form>
+                    <input class="link" type="button" value="Pup 1" onclick="pup1()">
+                    <input class="link" type="button" value="Pup 2" onclick="pup2()">
+                    <input class="link" type="button" value="Pup 3" onclick="pup3()">
+                </form>
+                <div id="storyArea">
+                    <h4 id="storyPup">Click on a Button to view a success Story</h4>
+                    <img id="storyImg" src="../images/logo1.png">
+                    <p id="storyDesc">It will talk about the pup, its breed, and a short story about it.</p>
+                </div>
+            </section>
+
+            <section>
+                <h2>Trivia</h2>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2026 Adopt a Puppy Jacksonville. All rights reserved.</p>
+        </footer>
+    </body>
 </html>
