@@ -62,7 +62,6 @@ nav li{
 
 nav .linkOrange{
     background-color:rgb(235, 151, 72);
-    border: 2px rgb(226, 110, 64);
     border-radius:1rem;
     text-decoration: none;
     padding:.75rem;
@@ -74,14 +73,12 @@ nav .linkOrange{
     margin:.25rem;
     text-decoration: none;
     background-color:rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
     border-radius:.75rem;
     color:white;
     
 }
 .link:hover {
     background-color:rgb(162, 162, 189);
-    border: 2px rgb(103, 103, 143);
     border-radius:1rem;
     color:white;
 
@@ -129,7 +126,6 @@ p{
 }
 .hq{
     background-color:rgb(207, 207, 236);
-    border: 2px rgba(103, 103, 143, 0.858);
     margin:2rem;
     padding:1rem;
     border-radius:10rem;
@@ -138,7 +134,6 @@ p{
 iframe{
     display:block;
     margin: 0 auto;
-    border: 2px rgb(103, 103, 143);
     border-radius:1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.026);
     height:500px;
@@ -149,7 +144,6 @@ section{
 }
 #highlights{
     background-color:rgb(251, 235, 196);
-    border: 2px rgba(103, 103, 143, 0.858);
     padding:1rem;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.026);
     margin: 0 auto;
@@ -162,7 +156,6 @@ section{
     width:28%;
     vertical-align: center;
     background-color:rgb(245, 242, 238);
-    border: 2px rgba(103, 103, 143, 0.858);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.026);
 
 }

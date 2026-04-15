@@ -62,7 +62,6 @@ nav li{
 
 nav .linkOrange{
     background-color:rgb(235, 151, 72);
-    border: 2px rgb(226, 110, 64);
     border-radius:1rem;
     text-decoration: none;
     padding:.75rem;
@@ -74,14 +73,12 @@ nav .linkOrange{
     margin:.25rem;
     text-decoration: none;
     background-color:rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
     border-radius:.75rem;
     color:white;
     
 }
 .link:hover {
     background-color:rgb(162, 162, 189);
-    border: 2px rgb(103, 103, 143);
     border-radius:1rem;
     color:white;
 
@@ -137,6 +134,8 @@ th, td{
 }
 td img{
     width:100%;
+    max-height:600px;
+    max-width: 500px;
     
 }
 td{
@@ -158,7 +157,6 @@ td{
 }
 .week{
     background-color:rgb(214, 221, 255);
-    border: 2px rgb(163, 182, 223);
     border-radius:1rem;
     padding:2rem;
     color:white;
@@ -171,7 +169,6 @@ p{
 td a{
     text-decoration: none;
     background-color:rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
     border-radius:.75rem;
     color:white;
     padding:.75rem;
@@ -179,7 +176,6 @@ td a{
 td a:hover{
     text-decoration: none;
     background-color:rgb(219, 165, 129);
-    border: 2px rgb(143, 121, 103);
     border-radius:.75rem;
     color:white;
     padding:.75rem;
@@ -193,7 +189,6 @@ tr:nth-child(even) {
 .intro a{
     text-decoration: none;
     background-color:rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
     border-radius:.75rem;
     color:white;
     padding:.75rem;
@@ -202,7 +197,6 @@ tr:nth-child(even) {
 .intro a:hover{
     text-decoration: none;
     background-color:rgb(219, 165, 129);
-    border: 2px rgb(143, 121, 103);
     border-radius:.75rem;
     color:white;
     padding:.75rem;
@@ -224,12 +218,69 @@ tr:nth-child(even) {
     width:50%;
     border-radius: 2rem;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    max-height:600px;
+    max-width: 500px;
 }
 .imageGallery p{
     background-color:rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
     border-radius:1rem;
     color:white;
     padding:1rem;
     font-weight: bold;
+}
+
+
+#adopt{
+    display :inline-block;
+    width:100%;
+    text-align: center;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+    padding: 2rem 0;
+    background-color:rgb(179, 161, 199);
+    border:10px rgb(255, 217, 170) solid;
+    border-radius: 30rem;
+
+}
+label{
+    font-family: "fjalla One", sans-serif;
+    font-size: 1.25rem;
+    color:rgb(84, 84, 89);
+}
+input[type="text"], input[type="email"] , input[type="tel"] {
+    width: 30%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    text-align: center;
+    background-color:rgb(245, 240, 228) ;
+}
+input[type="submit"] {
+    padding:.75rem;
+    background-color:rgb(141, 141, 192);
+    border: 2px rgb(241, 211, 177) solid;
+    border-radius:.75rem;
+    color:white;
+    margin:2rem;
+    font-family: "fjalla One", sans-serif;
+    font-size: 1.25rem;
+   
+}
+.rehome{
+    margin:2rem 0;
+    background-color:rgb(224, 226, 238);
+    text-align: center;
+    border-radius:1rem;
+    padding:2rem;
+    color:white;
+}
+.rehome a{
+    text-decoration: none;
+    background-color:rgb(221, 151, 104);
+    border-radius:2rem;
+    color:white;
+    padding:1rem;
+    margin:1rem auto;
+    font-family: "fjalla One", sans-serif;
+    letter-spacing: 1px;
 }

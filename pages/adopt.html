@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&display=swap" rel="stylesheet">
-    <script src="../js/adoptConfetti.js"></script>
+    <script src="../js/adopt.js"></script>
 </head>
     <body>
     <header>
@@ -33,8 +33,11 @@
         <section class="intro">
             <p>Bring your family to meet our adorable puppies and find your new best friend! Adoption Fees are $20 to help aid the shelter.We are currently accepting applications for adoption. Please see the bottom of the page for more information!</p>
            <div>
+            <h2>Quick Links</h2>
             <a href = #puppy>See Puppies</a>
             <a href = #adults>See Adults</a>
+            <a href = #adopt>Adoption Form</a>
+            <a href="../pages/rehome.html">Looking to Rehome?</a>
            </div>
         </section>
          <section class="week image-section2">
@@ -51,14 +54,14 @@
                    him this weekend and see if he’s the missing piece to your home!</p>
 
         </section>
-        <h2> Image Gallery</h2>
+        <h2> Doggie Gallery</h2>
         <section class= "imageGallery">
-            <p>&lt</p>
-            <img src="../images/german.jpg" alt="German Shepherd">
-            <p>&gt</p>
+            <p onClick ="prevImage()" >&lt</p>
+            <img src="../images/german.jpg" alt="German Shepherd" id="galleryImage">
+            <p onClick ="nextImage()" >&gt</p>
 
         </section>
-        <h2> Puppies for Adoption</h2>
+        <h1> Puppies for Adoption</h2>
         <table id="puppy">
             <tr>
                 <td><img src="../images/jack-russel.jpg" alt="Jack Russell"></td>
@@ -137,34 +140,37 @@
             </tr>
 
         </table>
-        <h2>Ready to Adopt?</h2>
-        <form id="adopt">
-            <label for="fname">First Name:</label>
-            <input type="text" id="fname" name="fname" required>
+        <section id="adopt">
+            <h1>Ready to Adopt?</h1>
+            <form >
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname" required>
+                <br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname" required>
+                <br>
+                <label for="email">Email Address:</label><br>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <label for="dogName">Dog's Name You Wish to Adopt:</label><br>
+                <input type ="text" id="dogName" name="dogName" placeholder="Dog's Name " required>
+                <br>
+                <label for="location">Preferred Location for Adoption:</label><br>
+                <input type ="text" id="location" name="location" placeholder=" Location " required>
 
-            <label for="lname">Last Name:</label>
-            <input type="text" id="lname" name="lname" required>
-
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="dogName">Dog's Name You Wish to Adopt:</label>
-            <input type ="text" id="dogName" name="dogName" placeholder="Dog's Name You Wish to Adopt" required>
-
-            <label for="location">Preferred Location for Adoption:</label>
-            <input type ="text" id="location" name="location" placeholder="Preferred Location for Adoption" required>
-
-            <br>
-            <input type="submit" value="Submit" id="submit">
-        </form>
-
-
-        <!-- Add contact information and next steps for adoption process maybe find confettie js  -->
-        <h2>Have a dog you can no longer care for?</h2>
-        <p> if you need to surrender a dog please visit our</p> 
-        <a href="../pages/rehome.html">Surrender Page</a>
+                <br>
+                <input type="submit" value="Submit" id="submit">
+            </form>
+        </section>
+        <section class="rehome">
+            <h2>Have a dog you can no longer care for?</h2>
+            <p> We understand that life can bring unexpected changes, and sometimes, despite your love and best intentions, you may find yourself unable to care for your dog. This is never an easy decision, and we want you to know that you are not alone. Our surrender process is designed to ensure your dog’s safety, comfort, and well-being. When you surrender your dog to us, our team will take the time to learn about their personality, medical history, and daily routine. This helps us provide the best possible care and find a loving, suitable home for them. To rehome a dog, click the link below.</p>
+            <a href="../pages/rehome.html">Rehome Page</a>
+        </section>
     </body>
-
 
     <footer>
         <p>&copy; 2026 Adopt a Puppy Jacksonville. All rights reserved.</p>

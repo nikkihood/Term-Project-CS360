@@ -64,7 +64,6 @@ nav li{
 
 nav .linkOrange{
     background-color:rgb(235, 151, 72);
-    border: 2px rgb(226, 110, 64);
     border-radius:1rem;
     text-decoration: none;
     padding:.75rem;
@@ -75,7 +74,6 @@ nav .linkOrange{
     padding:.75rem;
     text-decoration: none;
     background-color:rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
     border-radius:1rem;
     color:white;
     letter-spacing: .3px;
@@ -83,7 +81,6 @@ nav .linkOrange{
 }
 .link:hover {
     background-color:rgb(162, 162, 189);
-    border: 2px rgb(103, 103, 143);
     border-radius:1rem;
     color:white;
 }
@@ -146,7 +143,6 @@ h2{
 }
 .week{
     background-color:rgb(137, 152, 237);
-    border: 2px rgb(77, 64, 226);
     border-radius:1rem;
     padding:2rem;
     color:white;
@@ -175,7 +171,6 @@ h2{
     color:white;
     padding:1.25rem;
     background-color:rgb(235, 151, 72);
-    border: 2px rgb(226, 110, 64);
     border-radius:1rem;
     margin:2rem;
     font-size: larger;
@@ -185,7 +180,6 @@ h2{
 #adoptBuster
 {
     background-color:rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
     border-radius:3rem;
     padding:1rem;
     text-decoration: none;
@@ -196,7 +190,6 @@ h2{
 #adoptBuster:hover
 {
     background-color:rgb(119, 119, 170);
-    border: 2px rgb(103, 103, 143);
     border-radius:3rem;
     padding:1.25rem;
     text-decoration: none;
