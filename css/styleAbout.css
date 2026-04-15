@@ -3,17 +3,12 @@
   font-weight: 400;
   font-style: normal;
 }
-
-
-
 .dancing-script {
   font-family: "Dancing Script", cursive;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
 }
-
-
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
@@ -30,10 +25,8 @@ main{
 header{
     width: 100%;
     margin:0 auto;
-    display:inline-block;
-    
+    display:inline-block;  
 }
-
 nav {
     font-family:"fjalla One";
     text-decoration: none;
@@ -42,8 +35,6 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*Need to write report on use of flex.*/
-   
 }
 nav h1{
     color:white;
@@ -60,30 +51,29 @@ li{
     margin:1rem;
 }
 
-nav .linkOrange{
-    background-color:rgb(235, 151, 72);
-    border: 2px rgb(226, 110, 64);
-    border-radius:1rem;
+.link {
+    padding: .75rem;
     text-decoration: none;
-    padding:.75rem;
-    color:white
-}
-
-.link{
-    padding:.75rem;
-    margin:.25rem;
-    text-decoration: none;
-    background-color:rgb(141, 141, 192);
+    background-color: rgb(141, 141, 192);
     border: 2px rgb(103, 103, 143);
-    border-radius:.75rem;
-    
+    border-radius: 1rem;
+    color: white;
+    letter-spacing: .3px;
+}
+.linkOrange {
+    background-color: rgb(235, 151, 72);
+    border: 2px rgb(226, 110, 64);
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: .75rem;
+    color: white
 }
 .link:hover {
-    background-color:rgb(162, 162, 189);
+    background-color: rgb(162, 162, 189);
     border: 2px rgb(103, 103, 143);
-    border-radius:1rem;
+    border-radius: 1rem;
+    color: white;
 }
-
 footer{
     margin-top:2rem;
     padding:1rem;
@@ -91,8 +81,6 @@ footer{
     background-color: rgb(100, 100, 182);
     color:white;
 }
-
- 
 #logo{
     margin: .75rem;
     padding-left: 2rem;
@@ -100,8 +88,88 @@ footer{
     height:80px;
     width:140px;
 }
-
-
-
-
-
+h1 {
+    color:rgb(61, 50, 91);
+    font-family:"Fjalla One";
+    text-align: center;
+}
+h2 {
+    font-family:"Fjalla One";
+    text-align: center;
+    color:rgb(247, 147, 54);
+}
+h3 {
+    font-family:"Fjalla One";
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+p {
+    font-family:"Fjalla One";
+    color:rgb(84, 84, 89);
+}
+.orangeDiv {
+    border: 2px solid orange;
+    background-color: #FFDBBB;
+    padding-bottom: 16px;
+    margin-bottom: 25px;
+}
+.purpleDiv {
+    border: 2px solid purple;
+    background-color: #DAB1DA;
+    padding-bottom: 16px;
+    margin-bottom: 25px;
+}
+.orangeText {
+    color:rgb(247, 147, 54);
+}
+.purpleText {
+    color: #602AB9
+}
+#introPara {
+    text-align: center;
+    font-size: 1.25rem;
+}
+#storyPup {
+    font-family:"Fjalla One";
+    color: #602AB9;
+    text-align: center;
+    font-size: 18px;
+}
+#storyImg {
+    display: block;
+    margin: 0px auto;
+    width:20%;
+    height:20%;
+}
+#storyDesc {
+    font-family:"Fjalla One";
+    color:rgb(84, 84, 89);
+    text-align: center;
+    font-size: 14px;
+    font-style: italic;
+}
+#storyArea {
+    border: 2px solid orange;
+    background-color: #FFDBBB;
+}
+.linkButton {
+    padding: .75rem;
+    font-family:"fjalla One";
+    text-decoration: none;
+    background-color: rgb(141, 141, 192);
+    border: 2px rgb(103, 103, 143);
+    border-radius: 1rem;
+    color: white;
+    letter-spacing: .3px;
+}
+.linkButton:hover {
+    padding: .75rem;
+    font-family:"fjalla One";
+    text-decoration: none;
+    background-color:rgb(98, 184, 255);
+    border: 2px rgb(103, 103, 143);
+    border-radius: 1rem;
+    color: white;
+    letter-spacing: .3px;
+}
