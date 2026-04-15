@@ -78,7 +78,10 @@ h2 img {
     vertical-align: middle;
     margin-right: 10px;
 }
-
+summary img {
+    width: 160px;
+    height: 160px;
+}
 .link {
     padding: .75rem;
     text-decoration: none;
