@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
         adult.style.fontSize = "10pt";
         adult.style.backgroundImage = "none";
         adult.style.height = "250px";
-        adult.style.width = "350px";
+        adult.style.width = "300px";
         adult.style.backgroundColor = "rgb(178, 178, 244)";
         adult.style.padding = "1rem";
         adult.style.verticalAlign = "top";
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
         youth.style.fontSize = "10pt";
         youth.style.backgroundImage = "none";
         youth.style.height = "250px";
-        youth.style.width = "350px";
+        youth.style.width = "300px";
         youth.style.backgroundColor = "rgb(244, 223, 178)";
         youth.style.padding = "1rem";
         youth.style.verticalAlign = "top";
@@ -74,7 +74,7 @@ document.addEventListener("DOMContentLoaded", function () {
         foster.style.fontSize = "10pt";
         foster.style.backgroundImage = "none";
         foster.style.height = "250px";
-        foster.style.width = "350px";
+        foster.style.width = "300px";
         foster.style.backgroundColor = "rgb(178, 233, 244)";
         foster.style.padding = "1rem";
         foster.style.verticalAlign = "top";
@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         group.style.backgroundImage = "none";
         group.style.height = "250px";
-        group.style.width = "350px";
+        group.style.width = "300px";
         group.style.backgroundColor = "rgb(244, 243, 178)";
         group.style.padding = "1rem";
         group.style.verticalAlign = "top";

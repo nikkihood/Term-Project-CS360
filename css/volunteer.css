@@ -133,14 +133,14 @@ img{
     display:inline-block;
     box-sizing:border-box;
     margin:0.5rem;
-    padding:10rem 1rem 1rem 1rem;
-    width:350px;
+    padding:8rem 1rem 1rem 1rem;
+    width:300px;
     height:250px;
     vertical-align:top;
     text-align:center;
     font-family: "Fjalla One";
     font-size:24pt;
-    color:rgb(235, 151, 72);
+    color:rgb(109, 29, 236);
 }
 #Adult{
     background-image:url("../images/dayVol.jpg");
@@ -161,7 +161,7 @@ img{
     background-size: cover;
     background-position: center;
     height:250px;
-    width:350px;
+    width:300px;
     background-repeat: no-repeat;
     overflow: hidden;
 }
