@@ -30,16 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     adult.addEventListener("dblclick", function () { //reset all to the original values by leaving the inline style blank 
         adult.innerHTML = adultOriginal;
-        adult.style.backgroundColor = "";
-        adult.style.backgroundImage = "";
-        adult.style.height = "";
-        adult.style.width = "";
-        adult.style.display = "";
-        adult.style.verticalAlign = "";
-        adult.style.textAlign = "";
-        adult.style.boxSizing = "";
-        adult.style.fontSize = "";
-        adult.style.padding = "";
+        resetStyle(adult);
     });
 
     youth.addEventListener("click", function () {
@@ -58,16 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     youth.addEventListener("dblclick", function () { //reset all to the original values by leaving the inline style blank
         youth.innerHTML = youthOriginal;
-        youth.style.display = "";
-        youth.style.fontSize = "";
-        youth.style.backgroundImage = "";
-        youth.style.height = "";
-        youth.style.width = "";
-        youth.style.backgroundColor = "";
-        youth.style.padding = "";
-        youth.style.verticalAlign = "";
-        youth.style.boxSizing = "";
-        youth.style.textAlign = "";
+        resetStyle(youth);
     });
 
     foster.addEventListener("click", function () {
@@ -86,16 +68,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     foster.addEventListener("dblclick", function () { //reset all to the original values by leaving the inline style blank
         foster.innerHTML = fosterOriginal;
-        foster.style.display = "";
-        foster.style.fontSize = "";
-        foster.style.backgroundImage = "";
-        foster.style.height = "";
-        foster.style.width = "";
-        foster.style.backgroundColor = "";
-        foster.style.padding = "";
-        foster.style.verticalAlign = "";
-        foster.style.boxSizing = "";
-        foster.style.textAlign = "";
+        resetStyle(foster);
     });
 
       group.addEventListener("click", function () {
@@ -115,17 +88,22 @@ document.addEventListener("DOMContentLoaded", function () {
 
     group.addEventListener("dblclick", function () { //reset all to the original values by leaving the inline style blank
         group.innerHTML = groupOriginal;
-        group.style.display = "";
-        group.style.fontSize = "";
-        group.style.backgroundImage = "";
-        group.style.height = "";
-        group.style.width = "";
-        group.style.backgroundColor = "";
-        group.style.padding = "";
-        group.style.verticalAlign = "";
-        group.style.boxSizing = "";
-        group.style.textAlign = "";
+        resetStyle(group);
     });
 
 
     });
+    function resetStyle(e)
+    {
+       e.style.display = "";
+        e.style.fontSize = "";
+        e.style.backgroundImage = "";
+        e.style.height = "";
+        e.style.width = "";
+        e.style.backgroundColor = "";
+        e.style.padding = "";
+        e.style.verticalAlign = "";
+        e.style.boxSizing = "";
+        e.style.textAlign = ""; 
+    }
+    
