@@ -126,6 +126,9 @@ p {
 .purpleText {
     color: #602AB9
 }
+.orangeDiv>p, .purpleDiv>p {
+    text-align: center;
+}
 #introPara {
     text-align: center;
     font-size: 1.25rem;
@@ -135,6 +138,7 @@ p {
     color: #602AB9;
     text-align: center;
     font-size: 18px;
+    text-decoration: underline;
 }
 #storyImg {
     display: block;
