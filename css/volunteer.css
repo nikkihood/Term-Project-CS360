@@ -165,3 +165,18 @@ img{
     background-repeat: no-repeat;
     overflow: hidden;
 }
+
+.signUpButtton {
+    display:block;
+    width:fit-content;
+    margin:1rem auto;
+    background-color:rgb(235, 151, 72);
+    border-radius:1rem;
+    text-decoration: none;
+    padding:.75rem 1rem;
+    color:white;
+    border:none;
+    font-family:"Fjalla One";
+    font-size:12pt;
+    text-align:center;
+}

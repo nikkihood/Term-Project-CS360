@@ -12,6 +12,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const group = document.querySelector("#Groups");
     const groupOriginal = group.innerHTML;
 
+    
+
     adult.addEventListener("click", function () {
         adult.innerHTML = "<p>Adult Opportunities</p><p>Adults can volunteer at their local shelter for a single day, or they can sign up to be a regular volunteer. Volunteers can help with cleaning, feeding, and socializing the animals. Volunteers can also help with events and fundraisers.</p><a href='#adultvol'>Learn More Here!</a>";
         adult.style.display = "inline-block";

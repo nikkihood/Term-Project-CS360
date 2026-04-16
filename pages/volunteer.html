@@ -48,13 +48,77 @@
             <h2>About Volunteering</h2>
             <p>Volunteering with us provides a rewarding experience where you can make a tangible difference in the lives of animals and the community. Our volunteers play a crucial role in supporting our mission and ensuring the well-being of our pets. Our volunteers are provided with training, support, and opportunities to grow their skills while making a positive impact. Additionally, groups volunteering at our shelter will be treated to light refreshments throughout their visit. We encourage everyone to get involved and experience the joy of helping our furry friends.</p>
             <img src ="../images/diversegroupvol.webp" alt="diverse group of volunteers pictured with dogs">
-        
+        </section>
+        <section >
+            <h1>Adult Volunteer Opportunities</h1>
+            <p>Our adult volunteers are the backbone of our organization, providing essential support in various roles. From dog walking and socializing with the animals to assisting with events and administrative tasks, our adult volunteers play a crucial role in ensuring the well-being of our pets and the success of our organization. We offer flexible scheduling to accommodate different availability, and we provide training and support to help you make the most of your volunteer experience. Join us in making a difference in the lives of our furry friends!</p>
+            <p> We are currently seeking individuals to aid in our administration and operations. From finance, business, Human Resources, and marketing we want your skills on our team.</p>
+            <p>Additionally, we are searching for volunteers to clean kennels and assist with other maintenance tasks to ensure a safe and comfortable environment for our animals. Groundskeeping and facility maintenance are essential to providing a welcoming and safe space for both our pets and visitors.</p>
+            <img src="../images/adultCleaning.jpg" alt="adult volunteer pictured cleaning kennel">
+            <a href="#form" class="signUpButtton">Sign Up Here!</a>
+        </section>
+        <section class="youth">
+            <h1>Youth Volunteer Opportunities</h1>
+            <p>We welcome youth volunteers who are passionate about helping animals and making a positive impact in their community. Youth volunteers can assist with various tasks such as dog walking, socializing with the animals, helping with events, and providing support to our staff. Volunteering with us provides a rewarding experience where young individuals can learn valuable skills, gain experience working with animals, and make a tangible difference in the lives of our furry friends. We provide training and support to ensure a safe and enjoyable volunteer experience for all youth volunteers. Parental permission is required for all youth volunteers under 18. Join us in making a difference in the lives of our pets and the community!</p>
+            <img src="../images/childvolunteer.jpg" alt="child volunteer pictured with dog">
+            <a href="#form" class="signUpButtton">Sign Up Here!</a>
         </section>
 
+        <section>
+            <h1>Foster Opportunities</h1>
+            <p>Foster volunteers provide temporary homes for animals in need, helping them transition from the shelter to a permanent home. This role is crucial for animals that require special care, socialization, or medical attention. Fostering allows animals to experience a loving environment while freeing up space in the shelter for other animals in need. We provide all necessary supplies, training, and support to ensure a successful fostering experience. A background check and home visit is required to ensure a safe environment. Join us in making a difference in the lives of our furry friends by becoming a foster volunteer!</p>
+            <img src = "../images/fosteringDog.avif" alt="foster volunteer pictured with dog in home">
+            <a href="#form" class="signUpButtton">Sign Up Here!</a>
+        </section>
 
+        <section>
+            <h1>Group Volunteer Opportunities</h1>
+            <p>We welcome groups of volunteers who are interested in making a positive impact in their community. Group volunteering can include activities such as dog walking, socializing with the animals, helping with events, cleaning, and providing support to our staff. Volunteering with us provides a rewarding experience where groups can learn valuable skills, gain experience working with animals, and make a tangible difference in the lives of our furry friends. We provide training and support to ensure a safe and enjoyable volunteer experience for all group volunteers. We strongly encourage school trips, teams, corporate groups, and other organizations to get involved. Join us in making a difference in the lives of our pets and the community!</p>
+            <img src="../images/groupWdog.webp" alt="group of school aged volunteers pictured with dogs">
+            <a href="#form" class="signUpButtton">Sign Up Here!</a>
 
+        <section id="form">
+            <h1>Volunteer Application Form</h1>
+            <p>If you're interested in volunteering, please fill out the application form below. We will review your application and get back to you with more information about how you can get involved.</p>
+            <form id="volunteerForm" action="../php/volunteer.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+                <br>
+                <label for="availability">Availability:</label>
+                <input type="text" id="availability" name="availability" required>
+                <br>
+                <label for="interests">Areas of Interest:</label>
+                <input type="text" id="interests" name="interests" required>
+                <br>
+                <label for="TypeOfVolunteer">Type of Volunteer:</label>
+                <input type="radio" id="adult" name="volunteerType" value="Adult" required>
+                <label for="adult">Adult</label>
+                <input type="radio" id="youth" name="volunteerType" value="Youth" required>
+                <label for="youth">Youth</label>
+                <input type="radio" id="foster" name="volunteerType" value="Foster" required>
+                <label for="foster">Foster</label>  
+                <input type="radio" id="groups" name="volunteerType" value="Groups" required>
+                <label for="groups">Groups</label>
 
+                <br>
+                <label for="Location">Preferred Location:</label>
+                <input type ="radio" id="riverside" name="location" value="Riverside" required>
+                <label for="riverside">Riverside</label>
+                <input type="radio" id="beachblvd" name="location" value="Beach Blvd" required>
+                <label for="beachblvd">Beach Blvd</label>
+                <input type="radio" id="sanmarco" name="location" value="San Marco" required>
+                <label for="sanmarco">San Marco</label>
+                <input type="radio" id="any" name="location" value="Any" required>
+                <label for="any">Any</label>
 
+            </form>
+        </section>
     </main>
 
     <footer>
