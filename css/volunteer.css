@@ -133,21 +133,21 @@ img{
     display:inline-block;
     box-sizing:border-box;
     margin:0.5rem;
-    padding:8rem 1rem 1rem 1rem;
+    padding:6rem 1rem 1rem 1rem;
     width:300px;
     height:250px;
     vertical-align:top;
     text-align:center;
     font-family: "Fjalla One";
     font-size:24pt;
-    color:rgb(109, 29, 236);
+    color:rgb(255, 255, 255);
 }
 #Adult{
     background-image:url("../images/dayVol.jpg");
    
 }
 #Youth{
-    background-image:url("../images/kidVol.jpg");
+    background-image:url("../images/kidVol.png");
    
 }
 #Foster{
@@ -155,7 +155,7 @@ img{
    
 }
 #Groups{
-    background-image: url("../images/groupVol.jpg");
+    background-image: url("../images/groupVol.png");
 }
 #Adult, #Youth, #Foster, #Groups{
     background-size: cover;
@@ -179,4 +179,73 @@ img{
     font-family:"Fjalla One";
     font-size:12pt;
     text-align:center;
+}
+.signUpButtton:hover {
+    background-color:rgb(128, 7, 250);
+    border-radius:1rem;
+    color:white;
+}
+
+.adult img, .youth img, .foster img, .groups img{
+    height:200px;
+    width: 300px;
+    margin:0 auto;
+    display:block;
+    border-radius:15rem;
+    border: 8px solid rgb(152, 107, 224);
+
+}
+
+#form p{
+    padding:0 2rem;
+}
+#volunteerForm{
+    display:block;
+    width:50%;
+    margin:0 auto;
+    background-color:rgb(254, 187, 123);
+    padding:2rem 1rem;
+    color:white;
+    text-align: center;
+    border-radius:7rem;
+    font-size: 16pt;
+    line-height: 4rem;
+    border: 12px dotted rgb(204, 179, 245);
+}
+input[type="submit"]{
+    display:inline-block;
+    margin:1rem auto;
+    background-color:rgb(235, 151, 72);
+    border-radius:1rem;
+    text-decoration: none;
+    padding:.75rem 1rem;
+    color:white;
+    border:none;
+    font-family:"Fjalla One";
+    font-size:12pt;
+    text-align:center;
+}
+input[type="submit"]:hover{
+    background-color:rgb(250, 125, 7);
+    border-radius:1rem;
+    color:white;
+}
+
+input[type="reset"]{
+    display:inline-block;
+    margin:1rem auto;
+    background-color:rgb(141, 141, 192);
+    border-radius:1rem;
+    text-decoration: none;
+    padding:.75rem 1rem;
+    color:white;
+    border:none;
+    font-family:"Fjalla One";
+    font-size:12pt;
+    text-align:center;
+}
+input[type="reset"]:hover{
+    background-color:rgb(109, 109, 209);
+    border-radius:1rem;
+    color:white;
 }
