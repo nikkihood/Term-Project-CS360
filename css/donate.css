@@ -95,8 +95,8 @@ footer{
     color:white;
 }
 table {
-    width: 95%;
-   text-align: center;
+    width: 100%;
+   vertical-align: center;
     border-collapse: collapse;
     margin: 1rem 0;
     
