@@ -1,0 +1,259 @@
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin:0 5rem;
+}
+main{
+    width:100%;
+    margin: 0 auto;
+    background-color: #ebeaea;
+
+}
+header{
+    width: 100%;
+    margin:0 auto;
+    display:inline-block;
+    
+}
+
+nav {
+    font-family:"fjalla One";
+    text-decoration: none;
+    background-color: rgb(100, 100, 182);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*Need to write report on use of flex.*/
+   
+}
+nav h1{
+    color:white;
+    font-size:24pt;
+
+}
+nav ul{
+    width:100vw;
+    margin:0 auto;
+    
+}
+nav li{
+    display:inline-block;
+    vertical-align: center;
+    margin:1rem;
+
+}
+
+nav .linkOrange{
+    background-color:rgb(235, 151, 72);
+    border-radius:1rem;
+    text-decoration: none;
+    padding:.75rem;
+    color:white
+}
+
+.link{
+    padding:.75rem;
+    text-decoration: none;
+    background-color:rgb(141, 141, 192);
+    border-radius:1rem;
+    color:white;
+    letter-spacing: .3px;
+    
+}
+.link:hover {
+    background-color:rgb(162, 162, 189);
+    border-radius:1rem;
+    color:white;
+}
+.cover{
+    background-image:url("../images/animalShelterCover1.jpeg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:3rem 0;
+} 
+footer{
+    margin-top:2rem;
+    padding:1rem;
+    text-align: center;
+    background-color: rgb(100, 100, 182);
+    color:white;
+}
+table {
+    width: 100%;
+   vertical-align: center;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    background-color: chocolate;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+}
+#ownerInfo{
+   
+    display: inline-block;
+}
+
+#logo{
+    margin: .75rem;
+    padding-left: 2rem;
+    display:inline-block;
+    height:80px;
+    width:140px;
+}
+#statement
+{
+    display:inline-block;
+    text-align: left;
+    font-family: "Dancing Script", cursive;
+    color:rgb(255, 255, 255);
+    font-size: 24pt;
+    margin-top:5rem;
+    text-shadow:2px 2px 2px rgb(11, 10, 10);
+    background-color:rgba(41, 52, 53, 0.663) ;
+    padding:.5rem;
+    border-radius: 1rem;
+}
+.image-section img{
+    width:200px;
+    height:200px;
+}
+.image-section {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+   
+}
+.puppy{
+    margin:1rem 2rem;
+    padding:1rem 1rem 1rem 1rem;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+
+}
+.week{
+    background-color:rgb(137, 152, 237);
+    border-radius:1rem;
+    padding:2rem;
+    color:white;
+}
+
+.image-section2 {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1.5rem;
+   
+}
+.puppy a{
+    text-decoration:none;
+    background-color: rgb(103, 103, 143);
+    color:white;
+    padding:1rem;
+    border: 2px rgb(103, 103, 143);
+    border-radius:1rem;
+    margin:2rem;
+    font-family:"fjalla One";
+}
+.puppy a:hover{
+    text-decoration:none;
+    color:white;
+    padding:1.25rem;
+    background-color:rgb(235, 151, 72);
+    border-radius:1rem;
+    margin:2rem;
+    font-size: larger;
+    font-family:"fjalla One";
+} 
+
+#adoptBuster
+{
+    background-color:rgb(141, 141, 192);
+    border-radius:3rem;
+    padding:1rem;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+}
+#adoptBuster:hover
+{
+    background-color:rgb(119, 119, 170);
+    border-radius:3rem;
+    padding:1.25rem;
+    text-decoration: none;
+    color:white;
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+}
+ .AdditionalLinks{
+    width: 100%;
+    padding-bottom:2rem;
+ }
+.AdditionalLinks h2{
+   margin: 2rem 0;
+}
+.AdditionalLinks ul{
+    list-style-type: none;
+}
+ .AdditionalLinks #links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:1rem;
+    padding:1rem;
+    font-family: "Fjalla One", sans-serif;
+    
+ }
+
+
+ #links li:nth-child(odd) a {
+     background-color: rgba(235, 151, 72, 0.678); /* Orange background */
+     color: white;
+     padding: 0.5rem 1rem;
+     text-decoration: none;
+     border-radius: 0.5rem;
+     display: inline-block;
+    
+ }
+ #links li:nth-child(even) a {
+     background-color: rgba(100, 100, 182, 0.295); /* Purple background */
+     color: white;
+     padding: 0.5rem 1rem;
+     text-decoration: none;
+     border-radius: 0.5rem;
+     display: inline-block;
+  
+ }
+    
+.image-section2 img{
+    width:100%;
+    max-width:300px;
+}
+

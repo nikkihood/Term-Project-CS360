@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Rehome a Puppy</title>
-    <link rel="stylesheet" href="../css/styleAbout.css">
-   //Change style sheet to match name of html file
+    <link rel="stylesheet" href="../css/styleRehome.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&display=swap" rel="stylesheet">
@@ -31,10 +30,45 @@
     </header>
 
     <main>
-    
-        
+    <h1>Rehoming a Faithful Companion</h1>
+    <div id="rehomeSum">
+    <p>At Adopt a Puppy Jacksonville, we understand the circumstances can change and the best path forward for our beloved pets is to find them a loving home. </p>
+    <p>We provide support for families who are looking to rehome their pets in a safe and loving environment.</p>
+    <p>We ensure that whether it's a temporary or permanent rehoming, our goal is to match pets with the right families.</p>
+    <p> If you are looking to rehome your best friend at Adopt a Puppy Jacksonville, please fill out the form below so we can help you as soon as possible.</p>
+    </div>
 
-    </main>
+    <form method="post" >
+        <fieldset>
+            <table>
+                <div id="ownerInfo">
+                <tr>
+                    <td colspan="2">
+                        <h2>Owner Information</h2>
+                        <label for="ownerName">Owner's Name</label><br>
+                        <input type="text" name="ownerName" id="ownerName" placeholder="John Doe" required><br/>                   
+                        <label for="ownerEmail">Owner's Email</label><br>
+                        <input type="email" name="ownerEmail" id="ownerEmail" placeholder="john.doe@example.com" required><br/>                        
+                        <label for="ownerPhone">Owner's Phone Number</label><br>
+                        <input type="tel" name="ownerPhone" id="ownerPhone" placeholder="123-456-7890" required><br/>     
+                    </td>
+                </tr>
+                </div>
+                <tr>
+                    <td>
+                        <h2>Dog Information</h2>
+                        <label for="dogName">Dog's Name</label><br>
+                        <input type="text" name="dogName" id="dogName" placeholder="Buddy" required><br>
+                        <label for="dogBreed">Dog's Breed (if unknown, leave blank)</label><br>
+                        <input type="text" name="dogBreed" id="dogBreed" placeholder="Golden Retriever"><br>
+                    </td>
+                    <td>
+                        <h2>Rehoming Information</h2>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+</main>
 
     <footer>
         <p>&copy; 2026 Adopt a Puppy Jacksonville. All rights reserved.</p>
