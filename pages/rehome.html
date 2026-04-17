@@ -27,15 +27,12 @@
             
         </nav>
       
-    </header>
+    </header
 
     <main>
-    <h1>Rehoming a Faithful Companion</h1>
+    <h1><img src="../images/sadDog(1).png" alt="Sad Dog 1">Rehoming a Faithful Companion<img src="../images/sadDog(2).png" alt="Sad Dog 2"></h1>
     <div id="rehomeSum">
-    <p>At Adopt a Puppy Jacksonville, we understand the circumstances can change and the best path forward for our beloved pets is to find them a loving home. </p>
-    <p>We provide support for families who are looking to rehome their pets in a safe and loving environment.</p>
-    <p>We ensure that whether it's a temporary or permanent rehoming, our goal is to match pets with the right families.</p>
-    <p> If you are looking to rehome your best friend at Adopt a Puppy Jacksonville, please fill out the form below so we can help you as soon as possible.</p>
+    <p>At Adopt a Puppy Jacksonville, we understand the circumstances can change and the best path forward for our beloved pets is to find them a loving home. We provide support for families who are looking to rehome their pets in a safe and loving environment. We ensure that whether it's a temporary or permanent rehoming, our goal is to match pets with the right families. If you are looking to rehome your best friend at Adopt a Puppy Jacksonville, please fill out the form below so we can help you as soon as possible.</p>
     </div>
 
     <form method="post" >
@@ -43,7 +40,7 @@
             <table>
                 <div id="ownerInfo">
                 <tr>
-                    <td colspan="2">
+                    <td colspan="2" class="orange">
                         <h2>Owner Information</h2>
                         <label for="ownerName">Owner's Name</label><br>
                         <input type="text" name="ownerName" id="ownerName" placeholder="John Doe" required><br/>                   
@@ -55,15 +52,51 @@
                 </tr>
                 </div>
                 <tr>
-                    <td>
+                    <td class ="purple">
                         <h2>Dog Information</h2>
                         <label for="dogName">Dog's Name</label><br>
                         <input type="text" name="dogName" id="dogName" placeholder="Buddy" required><br>
                         <label for="dogBreed">Dog's Breed (if unknown, leave blank)</label><br>
                         <input type="text" name="dogBreed" id="dogBreed" placeholder="Golden Retriever"><br>
+                        <label for="dogAge">Dog's Age</label><br>
+                        <input type="number" name="dogAge" id="dogAge" placeholder="2" min="0" max="20" required><br>
                     </td>
-                    <td>
+                    <td class ="purple">
                         <h2>Rehoming Information</h2>
+                        <label for="rehomeType">Type of Rehoming</label><br>
+                       <input type="radio" name="rehomeType" id="temporary" value="Temporary"><label for="temporary"> Temporary </label><br>
+                        <input type="radio" name="rehomeType" id="permanent" value="Permanent"><label for="permanent"> Permanent </label><br>
+                        <label for="length"> Length of Temporary Rehoming in Months (if applicable)</label><br/>
+                        <input type="number" name="length" id="length" placeholder="6" min="1" max="24"><br/>
+                        <label for="fostering">If temporary, are you comfortable with us fostering your dog to a loving family?</label><br/>
+                        <label for="fostering">Yes</label>
+                        <input type="checkbox" name="fostering" id="fostering" value="yes">
+                       
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="orange">
+                        <h2> Additional Information</h2>
+                        <label for="needs">Does your dog have any conditions that require special care?</label><br>
+                        <textarea name="needs" id="needs" placeholder="Please provide details about any special care your dog may require."></textarea><br>
+                        <label for="dropOffDate">Drop-off Date</label><br>
+                        <input type="date" name="dropOffDate" id="dropOffDate" required><br>
+                        <label for="dropOffLocation">Preferred Drop-off Location</label><br>
+                        <select name="dropOffLocation" id="dropOffLocation" required>
+                            <option value="">Select a location</option>
+                            <option value="San Marco">San Marco Shelter</option>
+                            <option value="Riverside">Riverside Shelter</option>
+                            <option value="Beach Blvd">Beach Blvd Shelter</option>
+                            <option value="Orange Park">Orange Park Shelter</option>
+                        </select>
+                    </td>                 
+                </tr>
+                <tr>
+                    <td colspan="2" class="purple">
+                        <h2>Consent and Agreement</h2>
+                        <label for="consent">I consent to the rehoming of my dog through Adopt a Puppy Jacksonville and agree to the terms and conditions.</label>
+                        <input type="checkbox" name="consent" id="consent" value="agree" required><br>
+                        <button type="submit">Submit Form</button>
                     </td>
                 </tr>
             </table>

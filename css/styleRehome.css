@@ -102,7 +102,15 @@ table {
    vertical-align: center;
     border-collapse: collapse;
     margin: 1rem 0;
-    background-color: chocolate;
+    
+}
+.orange{
+ background-color:rgba(235, 151, 72, 0.278);
+  border: 2px solid orange;
+}
+.purple{
+    background-color: #DAB1DA;
+     border: 2px solid purple;
 }
 td{
     border: 1px solid #ddd;
@@ -121,19 +129,7 @@ td{
     height:80px;
     width:140px;
 }
-#statement
-{
-    display:inline-block;
-    text-align: left;
-    font-family: "Dancing Script", cursive;
-    color:rgb(255, 255, 255);
-    font-size: 24pt;
-    margin-top:5rem;
-    text-shadow:2px 2px 2px rgb(11, 10, 10);
-    background-color:rgba(41, 52, 53, 0.663) ;
-    padding:.5rem;
-    border-radius: 1rem;
-}
+
 .image-section img{
     width:200px;
     height:200px;
@@ -151,9 +147,17 @@ td{
     padding:1rem 1rem 1rem 1rem;
     text-align: center;
 }
-h2{
+h1, h2{
     text-align: center;
     font-family: "Fjalla One", sans-serif;
+
+}
+p{
+    text-align: center;
+}
+img{
+width: 100px;
+height: 100px;
 
 }
 .week{
