@@ -160,6 +160,13 @@ width: 100px;
 height: 100px;
 
 }
+label{
+    font-weight: bold;
+    font-family: "Fjalla One", sans-serif;
+}
+.reduced{
+    font-weight: normal;
+}
 .week{
     background-color:rgb(137, 152, 237);
     border-radius:1rem;
