@@ -17,11 +17,11 @@
                 <h1> Adopt a Puppy Jacksonville </h1>
                 <ul>
                     <li><a class="link"  href="about.html">About</a></li>
-                    <li><a class="link" href="">Adopt</a></li>
-                    <li><a class="link" href="">Locations</a></li>
-                    <li><a class="link" href="">Volunteer</a></li>
-                    <li><a class="link" href="">Contact</a></li>
-                    <li><a class="linkOrange" href="">Donate Now!</a></li>
+                    <li><a class="link" href="adopt.html">Adopt</a></li>
+                    <li><a class="link" href="locations.html">Locations</a></li>
+                    <li><a class="link" href="volunteer.html">Volunteer</a></li>
+                    <li><a class="link" href="contact.html">Contact</a></li>
+                    <li><a class="linkOrange" href="donate.html">Donate Now!</a></li>
                 </ul>
             </nav>
         </header>
@@ -92,12 +92,14 @@
                 </div>
             </section>
 
-            <section>
+            <section id="mainStoryArea">
                 <h2>Success Stories</h2>
                 <form>
-                    <input class="link" type="button" value="Kiki the Fluffball" onclick="pup1()">
-                    <input class="link" type="button" value="Buster the Mop" onclick="pup2()">
-                    <input class="link" type="button" value="Snowball the Pomerian" onclick="pup3()">
+                    <ul>
+                        <li><input id="storyButton" type="button" value="Kiki the Fluffball" onclick="pup1()"></li>
+                        <li><input id="storyButton" type="button" value="Buster the Mop" onclick="pup2()"></li>
+                        <li><input id="storyButton" type="button" value="Snowball the Pomerian" onclick="pup3()"></li>
+                    </ul>
                 </form>
                 <div id="storyArea">
                     <h4 id="storyPup">Click on a Button to view a success Story</h4>

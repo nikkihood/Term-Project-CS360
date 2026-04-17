@@ -1,0 +1,110 @@
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin:0 5rem;
+}
+main{
+    width:100%;
+    margin: 0 auto;
+    background-color: #ebeaea;
+
+}
+header{
+    width: 100%;
+    margin:0 auto;
+    display:inline-block;  
+}
+nav {
+    font-family:"fjalla One";
+    text-decoration: none;
+    background-color: rgb(100, 100, 182);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav h1{
+    color:white;
+    font-size:24pt;
+}
+ul{
+    width:100vw;
+    margin:0 auto;
+    
+}
+li{
+    display:inline-block;
+    vertical-align: center;
+    margin:1rem;
+}
+
+.link {
+    padding: .75rem;
+    text-decoration: none;
+    background-color: rgb(141, 141, 192);
+    border: 2px rgb(103, 103, 143);
+    border-radius: 1rem;
+    color: white;
+    letter-spacing: .3px;
+}
+.linkOrange {
+    background-color: rgb(235, 151, 72);
+    border: 2px rgb(226, 110, 64);
+    border-radius: 1rem;
+    text-decoration: none;
+    padding: .75rem;
+    color: white
+}
+.link:hover {
+    background-color: rgb(162, 162, 189);
+    border: 2px rgb(103, 103, 143);
+    border-radius: 1rem;
+    color: white;
+}
+footer{
+    margin-top:2rem;
+    padding:1rem;
+    text-align: center;
+    background-color: rgb(100, 100, 182);
+    color:white;
+}
+#logo{
+    margin: .75rem;
+    padding-left: 2rem;
+    display:inline-block;
+    height:80px;
+    width:140px;
+}
+h1 {
+    color:rgb(61, 50, 91);
+    font-family:"Fjalla One";
+    text-align: center;
+}
+h2 {
+    font-family:"Fjalla One";
+    text-align: center;
+    color:rgb(247, 147, 54);
+}
+h3 {
+    font-family:"Fjalla One";
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+}
+p {
+    font-family:"Fjalla One";
+    color:rgb(84, 84, 89);
+}
