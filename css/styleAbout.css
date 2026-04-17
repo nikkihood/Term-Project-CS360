@@ -129,6 +129,12 @@ p {
 .orangeDiv>p, .purpleDiv>p {
     text-align: center;
 }
+.sectionImage {
+    display: block;
+    margin: 0px auto;
+    width:30%;
+    height:30%;
+}
 #introPara {
     text-align: center;
     font-size: 1.25rem;
@@ -154,8 +160,8 @@ p {
     font-style: italic;
 }
 #storyArea {
-    border: 2px solid orange;
-    background-color: #FFDBBB;
+    border: 2px solid blueviolet;
+    background-color: #C8C7F7;
 }
 .linkButton {
     padding: .75rem;
