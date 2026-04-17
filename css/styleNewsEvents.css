@@ -108,3 +108,69 @@ p {
     font-family:"Fjalla One";
     color:rgb(84, 84, 89);
 }
+#introPara {
+    text-align: center;
+    font-size: 1.25rem;
+}
+#eventPhotoArea {
+    text-align: center;
+    padding: 8px 5px 3px 9px;
+    width: 646px;
+}
+#eventPhotoArea img {
+    width: 646px;
+    height: 434px;
+    border-radius: 2rem;
+    padding: 4px;
+    margin: 5px 2px;
+}
+#eventPhotoArea figcaption {
+    position: absolute;
+    top: 905px;
+    left: 250px;
+    width: 600px;
+    height: 70px;
+    background-color: floralwhite;
+    font-family: "Fjalla One";
+    font-size: 150%;
+    font-weight: bold;
+    opacity: 0;
+    padding: 22px 2px 2px 2px;
+    text-align: center;
+    display: block;
+    border-radius: 1rem;
+}
+.eventGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 2rem;
+    background-color: #DBEDFF;
+    border: darkblue 2px solid;
+}
+#eventTitle {
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: "Fjalla One";
+    color:#602AB9;
+}
+#eventDescription {
+    text-align: center;
+}
+.eventButton {
+    background-color:rgb(141, 141, 192);
+    border-radius:1rem;
+    color:white;
+    padding:1rem;
+    font-weight: bold;
+}
+.eventButton:hover {
+    background-color:rgb(219, 165, 129);
+}
+.newsArea {
+    border: 2px solid orange;
+    background-color: #FFDBBB;
+    padding-bottom: 16px;
+    margin-bottom: 25px;
+}
