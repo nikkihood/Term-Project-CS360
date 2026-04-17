@@ -16,17 +16,17 @@ const eventImages = [
 
 const eventDescriptions = [
     "Join us for the Jacksonville Dogo Yoga Day! We will be hosting a day where you can bring your dog and friends to a yoga session to do yoga that is specifically designed for you and your dog! This event is to increase the bond between you and your pup alongside being able to meet other puppies and dog owners in the community.",
-    "Filler text for the second event. We will be hosting a pup walk in the park where you can bring your dog and friends to walk around the park and meet other dogs and dog owners in the community. This is a great way to get some exercise for you and your pup while also being able to socialize with other dogs and dog owners in the community."
+    "Jacksonville Pup Walk is a great place to go on a walk with you puppies! This event is a pup walk in the park where you and your pup go on a 1.5 mile walk in the park with other dogs. This is a great way to get out of the house and spend some time with your pup while also getting some exercise in!"
 ];
 
 const eventImageTitles = [
     "Dogo Yoga Day",
-    "Filler-textt"
+    "Pup Walk"
 ];
 
 const eventImageAlts = [
     "Jacksonville Dogo Yoga Day Image",
-    "Filler text image"
+    "Jacksonville Pup Walk Image"
 ];
 
 let index = 0;
@@ -34,9 +34,10 @@ let index = 0;
 function updateEvent() {
     document.getElementById("eventPhoto").src = eventImages[index];
     document.getElementById("eventPhoto").alt = eventImageAlts[index];
-    document.getElementById("eventPhoto").title = eventTitles[index];
+    document.getElementById("eventPhoto").title = eventImageTitles[index];
     document.getElementById("eventTitle").textContent = eventTitles[index];
     document.getElementById("eventDescription").textContent = eventDescriptions[index];
+    document.querySelector("#eventPhotoArea figcaption").textContent = eventImageTitles[index];
 }
 
 function prevEvent() {
