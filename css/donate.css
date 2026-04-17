@@ -1,0 +1,200 @@
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+    margin:0 5rem;
+}
+main{
+    width:100%;
+    margin: 0 auto;
+    background-color: #ebeaea;
+
+}
+header{
+    width: 100%;
+    margin:0 auto;
+    display:inline-block;
+    
+}
+
+nav {
+    font-family:"fjalla One";
+    text-decoration: none;
+    background-color: rgb(100, 100, 182);
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*Need to write report on use of flex.*/
+   
+}
+nav h1{
+    color:white;
+    font-size:24pt;
+
+}
+nav ul{
+    width:100vw;
+    margin:0 auto;
+    
+}
+nav li{
+    display:inline-block;
+    vertical-align: center;
+    margin:1rem;
+
+}
+
+nav .linkOrange{
+    background-color:rgb(235, 151, 72);
+    border-radius:1rem;
+    text-decoration: none;
+    padding:.75rem;
+    color:white
+}
+
+.link{
+    padding:.75rem;
+    text-decoration: none;
+    background-color:rgb(141, 141, 192);
+    border-radius:1rem;
+    color:white;
+    letter-spacing: .3px;
+    
+}
+.link:hover {
+    background-color:rgb(162, 162, 189);
+    border-radius:1rem;
+    color:white;
+}
+.cover{
+    background-image:url("../images/animalShelterCover1.jpeg ");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding:3rem 0;
+} 
+footer{
+    margin-top:2rem;
+    padding:1rem;
+    text-align: center;
+    background-color: rgb(100, 100, 182);
+    color:white;
+}
+table {
+    width: 95%;
+   text-align: center;
+    border-collapse: collapse;
+    margin: 1rem 0;
+    
+}
+.donateButton{
+    display:block;
+    width:fit-content;
+    margin:1rem auto;
+    background-color:rgb(235, 151, 72);
+    border-radius:1rem;
+    text-decoration: none;
+    padding:.75rem 1rem;
+    color:white;
+    border:none;
+    font-family:"Fjalla One";
+    font-size:12pt;
+    text-align:center;}
+
+    #headerimage{
+    width:40%;
+    height: auto;
+    display: block;
+    margin: 1rem auto;
+    
+    }
+
+.donationImage{
+    width:30%;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+}
+th{
+    background-color:rgb(54, 54, 196);
+    color:white;
+    padding:0.5rem;
+}
+td:nth-child(odd) {
+    background-color: #DAB1DA;
+     border: 2px solid purple;
+}
+td:nth-child(even) {
+    background-color:rgba(235, 151, 72, 0.278);
+  border: 2px solid orange;
+}
+.orange{
+ background-color:rgba(235, 151, 72, 0.278);
+  border: 2px solid orange;
+}
+.purple{
+    background-color: #DAB1DA;
+     border: 2px solid purple;
+}
+td{
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: center;
+}
+#ownerInfo{
+   
+    display: inline-block;
+}
+
+#logo{
+    margin: .75rem;
+    padding-left: 2rem;
+    display:inline-block;
+    height:80px;
+    width:140px;
+}
+#fiveDollars, #fiftyDollars, form{
+    background-color:rgba(235, 151, 72, 0.278);
+  border: 2px solid orange;
+  margin: 30px;
+  text-align: center;
+}
+#fifteenDollars, #donationList{
+    background-color: #DAB1DA;
+     border: 2px solid purple;
+     margin: 30px;
+     text-align: center;
+}
+h1, h2{
+    text-align: center;
+    font-family: "Fjalla One", sans-serif;
+
+}
+p{
+    text-align: center;
+}
+img{
+width: 100px;
+height: 100px;
+
+}
+#donorList li{
+    list-style-type: none;
+    text-align: center;
+    
+}
+

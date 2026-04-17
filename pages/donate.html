@@ -4,12 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <title>Donate</title>
-    <link rel="stylesheet" href="../css/styleAbout.css">
-   //Change style sheet to match name of html file
+    <link rel="stylesheet" href="../css/donate.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&display=swap" rel="stylesheet">
-
+    <script src="../js/donate.js"></script>
 </head>
     <body>
     <header>
@@ -32,9 +31,87 @@
     </header>
 
     <main>
-    
-        
+    <h1 class="fjalla-one-regular">Your Support Makes a Difference</h1>
+    <img id="headerimage" src="../images/richDog.jpeg" alt="Rich Dog">
+    <p>Adopt a Puppy Jacksonville relies on the generosity of the community to ensure that every puppy is one step closer to finding their forever home. Every donation provides food, shelter, medical care, and love to each of our pups as we seek to unite them with their perfect families.
+    We provide monthly donation options so that you can support our mission. For as little as 5$ a month, you can ensure that a puppy receives the care and attention they deserve. If you can't commit to a monthly donation, simply make a one-time contribution to help us continue our work.</p>
 
+    <div class="donationOptions" id="fiveDollars">
+        <h2>Pomeranian Tier</h2>
+        <img src="../images/pomeranian.jpeg" alt="Pomeranian" class="donationImage">
+        <p>Our Pomeranian Tier donation is a 5$ a month contribution that can help provide essential services for our puppies. The amount may not seem large, but it makes a significant difference in the lives of our beloved pups. With this package you will recieve a monthly newsletter via email as well as priority when reserving a spot at events.</p>
+        <a href="#donationForm" class="donateButton">Donate Now!</a>
+    </div>
+    <div class="donationOptions" id="fifteenDollars">
+        <h2>Border Collie Tier</h2>
+        <img src="../images/borderCollie.jpeg" alt="Border Collie" class="donationImage">
+        <p>Our Border Collie Tier donation is a 15$ a month contribution that covers the expenses entirely for one of our pups. With this package you will recieve the same benefits as the Pomeranian Tier, as well as the ability to "sponser" a puppy. We will give you weekly updates on the puppy's wellbeing as well as the opprotunity to schedule a one on one playdate with the sponsored puppy.</p>
+        <a href="#donationForm" class="donateButton">Donate Now!</a>
+    </div>
+    <div class="donationOptions" id="fiftyDollars">
+        <h2>German Shepard Tier</h2>
+        <img src="../images/GermanShepherd.jpeg" alt="German Shepherd" class="donationImage">
+        <p>Our German Shepard Tier donation is a 50$ a month contribution that can cover the expenses of multiple pups and can help cover the costs of unexpected medical visits. With this package you will recieve the same benefits as the Border Collie Tier. You will also be added to our exclusive donor list (see below).</p>
+        <a href="#donationForm" class="donateButton">Donate Now!</a>
+    </div>
+    <div class="donorList" id="donationList">
+        <h2 class="fjalla-one-regular">Exclusive Donor List</h2>
+        <p>Thank you to the following donors for your continuous support of Adopt a Puppy Jacksonville:</p>
+        
+        <ul id="donorList">
+    
+        </ul>
+    </div>
+    <div class="donationTable">
+        <table>
+            <thead>
+                <tr>
+                    <th>Donation Tier</th>
+                    <th>Monthly Amount</th>
+                    <th>Benefits</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Pomeranian Tier</td>
+                    <td>$5</td>
+                    <td>Monthly newsletter, priority event reservations</td>
+                </tr>
+                <tr>
+                    <td>Border Collie Tier</td>
+                    <td>$15</td>
+                    <td>All Pomeranian benefits plus puppy sponsorship</td>
+                </tr>
+                <tr>
+                    <td>German Shepherd Tier</td>
+                    <td>$50</td>
+                    <td>All Border Collie benefits plus exclusive donor status</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <form method="post" id="donationForm">
+        <fieldset>
+            <h2 class="fjalla-one-regular">Make a Monthly Donation</h2>
+            <label for="donorName">Name</label><br>
+            <input type="text" name="donorName" id="donorName" placeholder="John Doe" ><br/>
+            <label for="donorEmail">Email</label><br>
+            <input type="email" name="donorEmail" id="donorEmail" placeholder="john.doe@example.com" ><br/>
+            <label for="donationAmount">Donation Amount</label><br>
+            <select name="donationAmount" id="donationAmount"
+                <option value="">Select an amount</option>
+                <option value="5">$5</option>
+                <option value="15">$15</option>
+                <option value="50">$50</option>
+            </select>
+            <br>
+            <h2 class="fjalla-one-regular">Make a One-Time Donation</h2>
+            <label for="donationAmount">Donation Amount</label><br>
+            <input type="number" name="oneTimeDonation" id="oneTimeDonation" placeholder="Enter amount in dollars" min="1"><br>
+            <button type="submit" class="donateButton">Donate Now!</button>
+        </fieldset>
+    </form>
     </main>
 
     <footer>
