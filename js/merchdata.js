@@ -10,7 +10,6 @@ document.addEventListener('DOMContentLoaded', function(){
     }
     document.querySelector('#checkout').addEventListener('click', function(){
         let grandTotal = calculateGrandTotal();
-
         alert("Your total is $" + grandTotal.toFixed(2) + ". Thank you for your purchase!")
     })
 })
