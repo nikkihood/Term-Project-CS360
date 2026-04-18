@@ -1,44 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Contact Us</title>
-    <link rel="stylesheet" href="../css/styleAbout.css">
-   //Change style sheet to match name of html file
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&display=swap" rel="stylesheet">
+    <head>
+        <meta charset="UTF-8">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../css/styleContact.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Fjalla+One&display=swap" rel="stylesheet">
 
-</head>
+    </head>
     <body>
-    <header>
-        <nav>
-            <a href="../index.html"><img id="logo" src="../images/logo1.png" alt="Adopt a Puppy Jax Logo"></a>
-            <h1> Adopt a Puppy Jacksonville </h1>
-            <ul>
-                <li><a class="link"  href="about.html">About</a></li>
-                <li><a class="link" href="adopt.html">Adopt</a></li>
-                <li><a class="link" href="locations.html">Locations</a></li>
-                <li><a class="link" href="volunteer.html">Volunteer</a></li>
-                <li><a class="link" href="contact.html">Contact</a></li>
-                <li><a class="linkOrange" href="donate.html">Donate Now!</a></li>
-            </ul>
+        <header>
+            <nav>
+                <a href="../index.html"><img id="logo" src="../images/logo1.png" alt="Adopt a Puppy Jax Logo"></a>
+                <h1> Adopt a Puppy Jacksonville </h1>
+                <ul>
+                    <li><a class="link"  href="about.html">About</a></li>
+                    <li><a class="link" href="adopt.html">Adopt</a></li>
+                    <li><a class="link" href="locations.html">Locations</a></li>
+                    <li><a class="link" href="volunteer.html">Volunteer</a></li>
+                    <li><a class="link" href="contact.html">Contact</a></li>
+                    <li><a class="linkOrange" href="donate.html">Donate Now!</a></li>
+                </ul>
+            </nav>
+
+            <section class="cover">
+                <p id="statement">Contacting Adopt a Puppy Jacksonville</p>
+            </section>
+        </header>
+
+        <main>
+            <section>
+                <h1>Contact Us</h1>
+                <p id="introPara">If you are interested in contacting us, please provide the following information below including some personal 
+                    information alongside what you would like to contact us about.</p>
+            </section>
             
+            <section id="simpleBox">
+                <form id="formSection" method="get" action="redirect()">
+                    <p class="formHeader">Personal Information</p>
+                    <label for="fname">First Name</label><br>
+                    <input type="text" name="fname" id="fname" placeholder="First Name" required><br>
+                    <label for="lname">Last Name</label><br>
+                    <input type="text" name="lname" id="lname" placeholder="Last Name" required><br>
+                    <label for="phone">Phone Number</label><br>
+                    <input type="tell" name="phoneNum" id="phone" placeholder="###-###-####" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email" name="emailAdd" id="email" required><br>
 
-            
-        </nav>
-      
-    </header>
+                    <p class="formHeader">Contact Purposes</p>
+                    <legend>What are you contacting us about</legend>
+                    <input type="radio" name="contactPurpose" id="contactPurpose" value="adoption" required> <label for="adoption">Adoption</label><br>
+                    <input type="radio" name="contactPurpose" id="contactPurpose" value="rehome" required> <label for="rehome">Rehome</label><br>
+                    <input type="radio" name="contactPurpose" id="contactPurpose" value="volunteer" required> <label for="volunteer">Volunteer</label><br>
+                    <label for="comment">Comments</label><br>
+                    <textarea name="Comment" id="comment" cols="50" rows="4"></textarea><br>
+                    <input type="submit">
 
-    <main>
-    
-        
+                </form>
+            </section>
 
-    </main>
+        </main>
 
-    <footer>
-        <p>&copy; 2026 Adopt a Puppy Jacksonville. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2026 Adopt a Puppy Jacksonville. All rights reserved.</p>
+        </footer>
 
-</body>
+    </body>
 </html>
