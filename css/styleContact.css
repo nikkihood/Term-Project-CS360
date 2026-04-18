@@ -138,9 +138,9 @@ form {
     padding: 20px;
 }
 #formSection {
-    border: 2px solid darkgrey;
+    border: 2px solid darkslateblue;
     margin: 0px 1rem;
-    background-color: lightgrey;
+    background-color: lightsteelblue;
 }
 .formHeader {
     color: black;
