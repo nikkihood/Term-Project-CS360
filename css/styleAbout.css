@@ -112,12 +112,14 @@ p {
     background-color: #FFDBBB;
     padding-bottom: 16px;
     margin-bottom: 25px;
+    margin: 1.5rem;
 }
 .purpleDiv {
     border: 2px solid purple;
     background-color: #DAB1DA;
     padding-bottom: 16px;
     margin-bottom: 25px;
+    margin: 1.5rem;
 }
 .orangeText {
     color:rgb(247, 147, 54);
@@ -142,7 +144,7 @@ p {
     background-color: #DBEDFF;
     border: 1px solid darkblue;
     padding: 1rem;
-    margin-bottom: 2rem;
+    margin: 1.5rem;
 }
 .storyButtonsArea>form {
     text-align: center;
@@ -215,6 +217,7 @@ p {
     background-color: #b8d5f3;
     border: 1px solid rgb(2, 2, 70);
     padding: 1rem 8rem;
+    margin: 3rem;
 }
 .triviaForm>form {
     text-align: center;
