@@ -178,6 +178,7 @@ p {
     letter-spacing: .3px;
     font-family: "Fjalla One", sans-serif;
     margin: 10px auto;
+    margin: 0px .5rem;
 }
 #storyButton:hover {
     background-color: rgb(106, 106, 241);
