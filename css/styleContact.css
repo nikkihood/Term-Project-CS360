@@ -125,6 +125,9 @@ p {
     padding:.5rem;
     border-radius: 1rem;
 }
+form {
+    text-align: center;
+}
 #introPara {
     text-align: center;
     font-size: 1.25rem;
@@ -140,11 +143,10 @@ p {
     background-color: lightgrey;
 }
 .formHeader {
-    text-align: center;
     color: black;
     text-decoration: underline;
     font-size: 1.5rem;
-    margin: 0;
+    margin: 20px 0px;
 }
 legend {
     text-decoration: underline;
