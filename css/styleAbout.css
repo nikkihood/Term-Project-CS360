@@ -70,14 +70,15 @@ li{
     background-color: rgb(162, 162, 189);
     border: 2px rgb(103, 103, 143);
     border-radius: 1rem;
-    color: white;
 }
 footer{
     margin-top:2rem;
     padding:1rem;
     text-align: center;
     background-color: rgb(100, 100, 182);
-    color:white;
+}
+footer>p {
+    color: white;
 }
 #logo{
     margin: .75rem;
