@@ -1,13 +1,13 @@
 .fjalla-one-regular {
-  font-family: "Fjalla One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .dancing-script {
-  font-family: "Dancing Script", cursive;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
 body {
     font-family: 'Arial', sans-serif;
@@ -20,7 +20,6 @@ main{
     width:100%;
     margin: 0 auto;
     background-color: #ebeaea;
-
 }
 header{
     width: 100%;
@@ -43,7 +42,6 @@ nav h1{
 ul{
     width:100vw;
     margin:0 auto;
-    
 }
 li{
     display:inline-block;
@@ -107,6 +105,7 @@ h3 {
 p {
     font-family:"Fjalla One";
     color:rgb(84, 84, 89);
+    margin: 0px 2rem;
 }
 .orangeDiv {
     border: 2px solid orange;
@@ -141,8 +140,13 @@ p {
 }
 #mainStoryArea {
     background-color: #DBEDFF;
-    border: darkblue 1px solid;
+    border: 1px solid darkblue;
     padding: 1rem;
+    margin-bottom: 2rem;
+}
+.storyButtonsArea>form {
+    text-align: center;
+    padding-bottom: 1rem;
 }
 #storyPup {
     font-family:"Fjalla One";
@@ -167,17 +171,17 @@ p {
 #storyButton {
     padding: .75rem;
     text-decoration: none;
-    background-color: rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
+    background-color: rgb(128, 128, 236);
+    border: 4px dotted rgb(7, 7, 148);
     border-radius: 1rem;
     color: white;
     letter-spacing: .3px;
     font-family: "Fjalla One", sans-serif;
-    display: block;
     margin: 10px auto;
 }
 #storyButton:hover {
-    background-color: rgb(162, 162, 189);
+    background-color: rgb(106, 106, 241);
+    border: 4px dotted rgb(3, 3, 83);
 }
 #storyArea {
     border: 2px solid blueviolet;
@@ -185,22 +189,62 @@ p {
     border-radius: 1rem;
 }
 .linkButton {
+    text-align: center;
     padding: .75rem;
-    font-family:"fjalla One";
     text-decoration: none;
-    background-color: rgb(141, 141, 192);
-    border: 2px rgb(103, 103, 143);
+    background-color: rgb(126, 152, 221);
     border-radius: 1rem;
     color: white;
     letter-spacing: .3px;
+    font-family: "Fjalla One", sans-serif;
+    display: block;
+    margin: 10px auto;
+    width: 20%;
 }
 .linkButton:hover {
     padding: .75rem;
     font-family:"fjalla One";
     text-decoration: none;
     background-color:rgb(98, 184, 255);
-    border: 2px rgb(103, 103, 143);
     border-radius: 1rem;
     color: white;
     letter-spacing: .3px;
+}
+#triviaArea {
+    background-color: #b8d5f3;
+    border: 1px solid rgb(2, 2, 70);
+    padding: 1rem 8rem;
+}
+.triviaForm>form {
+    text-align: center;
+    padding-bottom: 1rem;
+    background-color: #e7f3ff;
+    border: 2px solid rgb(3, 3, 179);
+}
+legend {
+    text-decoration: underline;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-top: 1rem;
+}
+table {
+    width: 60%;
+    margin: 10px auto;
+    border: 1px dotted rgb(36, 36, 82);;
+}
+#triviaButton {
+    padding: .75rem;
+    text-decoration: none;
+    background-color: rgb(87, 149, 241);
+    border: none;
+    border-radius: 1rem;
+    color: white;
+    letter-spacing: .3px;
+    font-family: "Fjalla One", sans-serif;
+    display: block-inline;
+    margin: 10px auto;
+}
+#triviaButton:hover {
+    background-color: rgb(78, 78, 179);
+    border: none;
 }
