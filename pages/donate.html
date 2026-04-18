@@ -91,16 +91,17 @@
         </table>
     </div>
 
-    <form method="post" id="donationForm">
+    <form method="post" id="donationForm" action="https://www.w3schools.com/action_page.php">
         <fieldset>
             <h2 class="fjalla-one-regular">Make a Monthly Donation</h2>
             <label for="donorName">Name</label><br>
-            <input type="text" name="donorName" id="donorName" placeholder="John Doe" ><br/>
+            <input type="text" name="donorName" id="donorName" placeholder="John Doe" required ><br/>
             <label for="donorEmail">Email</label><br>
-            <input type="email" name="donorEmail" id="donorEmail" placeholder="john.doe@example.com" ><br/>
+            <input type="email" name="donorEmail" id="donorEmail" placeholder="john.doe@example.com" required><br/>
             <label for="donationAmount">Donation Amount</label><br>
-            <select name="donationAmount" id="donationAmount"
+            <select name="donationAmount" id="donationAmount">
                 <option value="">Select an amount</option>
+                <option value="0">One Time Donation</option>
                 <option value="5">$5</option>
                 <option value="15">$15</option>
                 <option value="50">$50</option>
@@ -108,7 +109,7 @@
             <br>
             <h2 class="fjalla-one-regular">Make a One-Time Donation</h2>
             <label for="donationAmount">Donation Amount</label><br>
-            <input type="number" name="oneTimeDonation" id="oneTimeDonation" placeholder="Enter amount in dollars" min="1"><br>
+            <input type="number" name="oneTimeDonation" id="oneTimeDonation" placeholder="Enter amount in dollars" min="1" ><br>
             <button type="submit" class="donateButton">Donate Now!</button>
         </fieldset>
     </form>
