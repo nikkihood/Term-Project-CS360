@@ -81,12 +81,7 @@ nav .linkOrange{
     border-radius:1rem;
     color:white;
 }
-.cover{
-    background-image:url("../images/animalShelterCover1.jpeg ");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding:3rem 0;
-} 
+
 footer{
     margin-top:2rem;
     padding:1rem;

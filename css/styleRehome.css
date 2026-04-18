@@ -130,23 +130,7 @@ td{
     width:140px;
 }
 
-.image-section img{
-    width:200px;
-    height:200px;
-}
-.image-section {
-    margin:0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:2rem;
-   
-}
-.puppy{
-    margin:1rem 2rem;
-    padding:1rem 1rem 1rem 1rem;
-    text-align: center;
-}
+
 #headerimage{
     width:100%;
     height:500px;
@@ -166,6 +150,15 @@ width: 100px;
 height: 100px;
 
 }
+button{
+    color:white;
+    padding:1rem;
+    border: 2px rgb(103, 103, 143);
+    font-family:"fjalla One";
+    background-color: rgb(103, 103, 143);
+    border-radius:1rem;
+    margin:2rem;
+}
 #dogInfo{
     width: 50%;
 }
@@ -176,104 +169,7 @@ label{
 .reduced{
     font-weight: normal;
 }
-.week{
-    background-color:rgb(137, 152, 237);
-    border-radius:1rem;
-    padding:2rem;
-    color:white;
-}
 
-.image-section2 {
-    margin:0 auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1.5rem;
-   
-}
-.puppy a{
-    text-decoration:none;
-    background-color: rgb(103, 103, 143);
-    color:white;
-    padding:1rem;
-    border: 2px rgb(103, 103, 143);
-    border-radius:1rem;
-    margin:2rem;
-    font-family:"fjalla One";
-}
-.puppy a:hover{
-    text-decoration:none;
-    color:white;
-    padding:1.25rem;
-    background-color:rgb(235, 151, 72);
-    border-radius:1rem;
-    margin:2rem;
-    font-size: larger;
-    font-family:"fjalla One";
-} 
-
-#adoptBuster
-{
-    background-color:rgb(141, 141, 192);
-    border-radius:3rem;
-    padding:1rem;
-    text-decoration: none;
-    color:white;
-    text-align: center;
-    font-family: "Fjalla One", sans-serif;
-}
-#adoptBuster:hover
-{
-    background-color:rgb(119, 119, 170);
-    border-radius:3rem;
-    padding:1.25rem;
-    text-decoration: none;
-    color:white;
-    text-align: center;
-    font-family: "Fjalla One", sans-serif;
-}
- .AdditionalLinks{
-    width: 100%;
-    padding-bottom:2rem;
- }
-.AdditionalLinks h2{
-   margin: 2rem 0;
-}
-.AdditionalLinks ul{
-    list-style-type: none;
-}
- .AdditionalLinks #links{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap:1rem;
-    padding:1rem;
-    font-family: "Fjalla One", sans-serif;
+ 
     
- }
-
-
- #links li:nth-child(odd) a {
-     background-color: rgba(235, 151, 72, 0.678); /* Orange background */
-     color: white;
-     padding: 0.5rem 1rem;
-     text-decoration: none;
-     border-radius: 0.5rem;
-     display: inline-block;
-    
- }
- #links li:nth-child(even) a {
-     background-color: rgba(100, 100, 182, 0.295); /* Purple background */
-     color: white;
-     padding: 0.5rem 1rem;
-     text-decoration: none;
-     border-radius: 0.5rem;
-     display: inline-block;
-  
- }
-    
-.image-section2 img{
-    width:100%;
-    max-width:300px;
-}
 
