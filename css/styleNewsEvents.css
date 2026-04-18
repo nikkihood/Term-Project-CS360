@@ -183,7 +183,7 @@ p {
     border: 2px solid orange;
     background-color: #FFDBBB;
     padding-bottom: 16px;
-    margin-bottom: 25px;
+    margin: 2rem;
 }
 .purpleText {
     color: #602AB9
