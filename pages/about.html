@@ -94,13 +94,13 @@
 
             <section id="mainStoryArea">
                 <h2>Success Stories</h2>
-                <form>
-                    <ul>
-                        <li><input id="storyButton" type="button" value="Kiki the Fluffball" onclick="pup1()"></li>
-                        <li><input id="storyButton" type="button" value="Buster the Mop" onclick="pup2()"></li>
-                        <li><input id="storyButton" type="button" value="Snowball the Pomerian" onclick="pup3()"></li>
-                    </ul>
-                </form>
+                <div class="storyButtonsArea">
+                    <form>
+                            <input id="storyButton" type="button" value="Kiki the Fluffball" onclick="pup1()">
+                            <input id="storyButton" type="button" value="Buster the Mop" onclick="pup2()">
+                            <input id="storyButton" type="button" value="Snowball the Pomerian" onclick="pup3()">
+                    </form>
+                </div>
                 <div id="storyArea">
                     <h4 id="storyPup">Click on a Button to view a success Story</h4>
                     <img id="storyImg" src="../images/logo1.png" alt="Adopt a Puppy Jacksonville Logo">
@@ -108,8 +108,59 @@
                 </div>
             </section>
 
-            <section>
+            <section id="triviaArea">
                 <h2>Trivia</h2>
+                <div class="triviaForm">
+                    <form>
+                        <legend>[Question 1] - Which one of these is not one of our facility highlights?</legend>
+                        <table>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="The Adoption Lounge" onclick="alert('Incorrect')"></td>
+                                <td><input id="triviaButton" type="button" value="Administration Suite" onclick="alert('Incorrect')"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="Downtown Rest Place" onclick="alert('Correct')"></td>
+                                <td><input id="triviaButton" type="button" value="Riderside Green Space" onclick="alert('Incorrect')"></td>
+                            </tr>
+                        </table>
+
+                        <legend>[Question 2] - Who is our Puppy of the Week?</legend>
+                        <table>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="Missy" onclick="alert('Incorrect')"></td>
+                                <td><input id="triviaButton" type="button" value="Buster" onclick="alert('Correct')"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="Luna" onclick="alert('Incorrect')"></td>
+                                <td><input id="triviaButton" type="button" value="Rocky" onclick="alert('Incorrect')"></td>
+                            </tr>
+                        </table>
+
+                        <legend>[Question 3] - Which of the following is an upcoming event?</legend>
+                        <table>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="Jacksonville Pup Walk" onclick="alert('Correct')"></td>
+                                <td><input id="triviaButton" type="button" value="Puppy Beach Play" onclick="alert('Incorrect')"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="Dog Race Tournamen" onclick="alert('Incorrect')"></td>
+                                <td><input id="triviaButton" type="button" value="Pup Costume Contest" onclick="alert('Incorrect')"></td>
+                            </tr>
+                        </table>
+
+                        <legend>[Question 4] - Which type of volunteer opportunity does not exist?</legend>
+                        <table>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="Adults" onclick="alert('Incorrect')"></td>
+                                <td><input id="triviaButton" type="button" value="Teenager" onclick="alert('Ccorrect')"></td>
+                            </tr>
+                            <tr>
+                                <td><input id="triviaButton" type="button" value="Youth" onclick="alert('Incorrect')"></td>
+                                <td><input id="triviaButton" type="button" value="Groups" onclick="alert('Incorrect')"></td>
+                            </tr>
+                        </table>
+                    </form>
+                </div>
             </section>
         </main>
 
