@@ -1,3 +1,4 @@
+window.addEventListener("load", function() {
 const images = [
     "../images/lab triplets1.jpg",
     "../images/mix.jpg",
@@ -25,7 +26,7 @@ const imageAlts = [
     "Golden Doodle"
 ];
 
-    let index = 0;
+let index = 0;
 
     // Function to update the displayed image and alt text
     function updateImage() {
@@ -47,3 +48,4 @@ const imageAlts = [
 
     // Initialize gallery
     updateImage();
+});
