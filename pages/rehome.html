@@ -65,8 +65,8 @@
                     <td class ="purple">
                         <h2>Rehoming Information</h2>
                         <label for="rehomeType">Type of Rehoming</label><br>
-                       <input type="radio" name="rehomeType" id="temporary" value="Temporary"><label for="temporary" class="reduced" required> Temporary </label><br>
-                        <input type="radio" name="rehomeType" id="permanent" value="Permanent"><label for="permanent" class="reduced" required> Permanent </label><br>
+                       <input type="radio" name="rehomeType" id="temporary" value="Temporary" required><label for="temporary" class="reduced" > Temporary </label><br>
+                        <input type="radio" name="rehomeType" id="permanent" value="Permanent" required><label for="permanent" class="reduced" > Permanent </label><br>
                         <label for="length"> Length of Temporary Rehoming in Months (if applicable)</label><br/>
                         <input type="number" name="length" id="length" placeholder="6" min="1" max="24"><br/>
                         <label for="fostering">If temporary, are you comfortable with us fostering your dog to a loving family?</label><br/>
@@ -99,6 +99,7 @@
                         <label for="consent" class="reduced">I consent to the rehoming of my dog through Adopt a Puppy Jacksonville and agree to the terms and conditions.</label>
                         <br>
                         <button type="submit">Submit Form</button>
+                        <button type="reset">Reset Form</button>
                     </td>
                 </tr>
             </table>
