@@ -163,12 +163,12 @@ img{
     height:250px;
     width:300px;
     background-repeat: no-repeat;
-    overflow: hidden;
+    overflow: hidden; 
 }
 
 .signUpButtton {
-    display:block;
-    width:fit-content;
+    display: inline-block;
+    width: auto;
     margin:1rem auto;
     background-color:rgb(235, 151, 72);
     border-radius:1rem;
