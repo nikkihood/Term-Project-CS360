@@ -162,7 +162,7 @@ button{
 #dogInfo{
     width: 50%;
 }
-label{
+label, legend{
     font-weight: bold;
     font-family: "Fjalla One", sans-serif;
 }

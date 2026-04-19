@@ -64,9 +64,12 @@
                     </td>
                     <td class ="purple">
                         <h2>Rehoming Information</h2>
-                        <label for="rehomeType">Type of Rehoming</label><br>
-                       <input type="radio" name="rehomeType" id="temporary" value="Temporary" required><label for="temporary" class="reduced" > Temporary </label><br>
+                        <label for="temporary">Type of Rehoming</label><br>
+                        <fieldset>
+                            <legend>Type of Rehoming</legend>
+                        <input type="radio" name="rehomeType" id="temporary" value="Temporary" required><label for="temporary" class="reduced" > Temporary </label><br>
                         <input type="radio" name="rehomeType" id="permanent" value="Permanent" required><label for="permanent" class="reduced" > Permanent </label><br>
+                        </fieldset>
                         <label for="length"> Length of Temporary Rehoming in Months (if applicable)</label><br/>
                         <input type="number" name="length" id="length" placeholder="6" min="1" max="24"><br/>
                         <label for="fostering">If temporary, are you comfortable with us fostering your dog to a loving family?</label><br/>
