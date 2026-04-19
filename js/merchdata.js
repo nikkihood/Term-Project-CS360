@@ -2,7 +2,7 @@ let itemTotal = [0,0,0,0]
 document.addEventListener('DOMContentLoaded', function(){
     console.log("Hello")
     let itemPrices = [6, 8, 13.00, 10.00]
-    const inputList = document.querySelectorAll("#inputs");
+    const inputList = document.querySelectorAll(".inputs");
     console.log(inputList)
     for (let i = 0; i<inputList.length; i++){
         console.log(itemPrices[i])
