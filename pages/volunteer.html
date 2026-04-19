@@ -96,7 +96,8 @@
                 <label for="interests">Areas of Interest:</label>
                 <input type="text" id="interests" name="interests" placeholder="Location" required>
                 <br>
-                <label for="volunteerType">Type of Volunteer:</label><br>
+                <fieldset>
+                <legend>Type of Volunteer:</legend>
                 <input type="radio" id="adult" name="volunteerType" value="Adult" required>
                 <label for="adult">Adult</label>
                 <input type="radio" id="youth" name="volunteerType" value="Youth" required>
@@ -105,9 +106,10 @@
                 <label for="foster">Foster</label>  
                 <input type="radio" id="groups" name="volunteerType" value="Groups" required>
                 <label for="groups">Groups</label>
-
-                <br>
-                <label for="location">Preferred Location:</label><br>
+                </fieldset>
+                
+                <fieldset>
+                <legend>Preferred Location:</legend>
                 <input type ="radio" id="riverside" name="location" value="Riverside" required>
                 <label for="riverside">Riverside</label>
                 <input type="radio" id="beachblvd" name="location" value="Beach Blvd" required>
@@ -116,7 +118,8 @@
                 <label for="sanmarco">San Marco</label>
                 <input type="radio" id="any" name="location" value="Any" required>
                 <label for="any">Any</label>
-                <br>
+            </fieldset>
+                
                 <input type="submit" value="Submit"> <input type="reset" value="Reset">
             </form>
         </section>
