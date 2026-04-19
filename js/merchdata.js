@@ -1,12 +1,11 @@
 let itemTotal = [0,0,0,0]
 document.addEventListener('DOMContentLoaded', function(){
     console.log("Hello")
-    let itemPrices = [6, 8, 13.00, 10.00]
+    const itemPrices = {ball: 6, frisbee: 8, collar: 13.00, sunglasses: 10.00};
     const inputList = document.querySelectorAll(".inputs");
     console.log(inputList)
     for (let i = 0; i<inputList.length; i++){
-        console.log(itemPrices[i])
-        inputList[i].addEventListener('change', (e) => changePrice(e, itemPrices[i], i))
+        inputList[i].addEventListener('change', (e) => changePrice(e, itemPrices[e.target.name], i))
     }
     document.querySelector('#checkout').addEventListener('click', function(){
         let grandTotal = calculateGrandTotal();
